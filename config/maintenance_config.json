@@ -1,0 +1,28 @@
+{
+  "cleanup_temp_files": true,
+  "rotate_logs": true,
+  "update_packages": true,
+  "verify_backups": true,
+  "temp_file_age_days": 7,
+  "log_retention_days": 30,
+  "notification_email": "",
+  "temp_dirs": [
+    "/tmp",
+    "/var/tmp",
+    "/var/cache/apt/archives",
+    "/home/cbwinslow/.cache"
+  ],
+  "log_dirs": [
+    "/var/log",
+    "/home/cbwinslow/.local/share/logs"
+  ],
+  "backup_dirs": [
+    "/home/cbwinslow/backups",
+    "/var/backups"
+  ],
+  "exclude_patterns": [
+    "*.lock",
+    "*.pid",
+    "currently-*"
+  ]
+}
