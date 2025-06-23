@@ -1,0 +1,18 @@
+{
+  "enabled": false,
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "use_tls": true,
+  "username": "your-email@gmail.com",
+  "password": "your-app-password",
+  "from_email": "system-monitor@localhost",
+  "to_emails": [
+    "admin@localhost"
+  ],
+  "alert_levels": ["critical", "warning"],
+  "subject_prefix": "[SYSTEM-ALERT]",
+  "rate_limit": {
+    "max_emails_per_hour": 10,
+    "cooldown_minutes": 15
+  }
+}

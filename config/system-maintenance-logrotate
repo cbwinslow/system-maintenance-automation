@@ -1,0 +1,25 @@
+# Log rotation for system maintenance automation
+/home/cbwinslow/system-maintenance-automation/logs/*.log {
+    daily
+    missingok
+    rotate 30
+    compress
+    delaycompress
+    notifempty
+    create 644 cbwinslow cbwinslow
+    postrotate
+        # Optional: restart services if needed
+    endscript
+}
+
+# Rotate database files if they get too large
+/home/cbwinslow/system-maintenance-automation/logs/*.db {
+    weekly
+    missingok
+    rotate 4
+    compress
+    delaycompress
+    notifempty
+    size 100M
+    copytruncate
+}

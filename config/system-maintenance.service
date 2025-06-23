@@ -1,0 +1,15 @@
+[Unit]
+Description=System Maintenance Automation
+After=network.target
+
+[Service]
+Type=oneshot
+User=cbwinslow
+Group=cbwinslow
+WorkingDirectory=/home/cbwinslow/system-maintenance-automation
+ExecStart=/home/cbwinslow/system-maintenance-automation/scripts/maintenance_tasks.sh
+StandardOutput=append:/home/cbwinslow/system-maintenance-automation/logs/systemd.log
+StandardError=append:/home/cbwinslow/system-maintenance-automation/logs/systemd.log
+
+[Install]
+WantedBy=multi-user.target

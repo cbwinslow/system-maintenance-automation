@@ -1,0 +1,49 @@
+{
+  "monitoring": {
+    "enabled": true,
+    "interval_minutes": 5,
+    "cron_schedule": "*/5 * * * *"
+  },
+  "maintenance": {
+    "enabled": true,
+    "daily_time": "02:00",
+    "weekly_day": "sunday",
+    "weekly_time": "03:00",
+    "monthly_day": 1,
+    "monthly_time": "04:00"
+  },
+  "reporting": {
+    "enabled": true,
+    "daily_time": "06:00",
+    "weekly_time": "07:00",
+    "monthly_time": "08:00"
+  },
+  "log_rotation": {
+    "enabled": true,
+    "max_size_mb": 100,
+    "max_age_days": 30,
+    "compress": true
+  },
+  "email_alerts": {
+    "enabled": false,
+    "smtp_server": "localhost",
+    "smtp_port": 587,
+    "username": "",
+    "password": "",
+    "from_email": "system@localhost",
+    "to_emails": ["admin@localhost"],
+    "alert_types": ["critical", "warning"]
+  },
+  "maintenance_windows": {
+    "prefer_low_usage": true,
+    "allowed_hours": [1, 2, 3, 4, 5],
+    "blocked_days": [],
+    "emergency_override": true
+  },
+  "backup": {
+    "config_backup": true,
+    "log_backup": true,
+    "report_backup": true,
+    "retention_days": 90
+  }
+}
