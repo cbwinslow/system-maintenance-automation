@@ -1,0 +1,22 @@
+{
+  "disk_usage_threshold": 85,
+  "inode_usage_threshold": 85,
+  "email_alerts": {
+    "enabled": false,
+    "smtp_server": "localhost",
+    "smtp_port": 587,
+    "from_email": "system@localhost",
+    "to_emails": [
+      "admin@localhost"
+    ],
+    "password": ""
+  },
+  "monitored_paths": [
+    "/",
+    "/home",
+    "/var",
+    "/tmp"
+  ],
+  "check_interval": 300,
+  "retention_days": 30
+}

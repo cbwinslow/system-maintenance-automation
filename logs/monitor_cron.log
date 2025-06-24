@@ -30,3 +30,258 @@ Traceback (most recent call last):
   File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
     from email.mime.text import MimeText
 ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+Traceback (most recent call last):
+  File "/home/cbwinslow/system-maintenance-automation/scripts/monitor_system.py", line 17, in <module>
+    from email.mime.text import MimeText
+ImportError: cannot import name 'MimeText' from 'email.mime.text' (/usr/lib/python3.13/email/mime/text.py)
+2025-06-23 20:15:01,193 - INFO - Starting monitoring cycle
+2025-06-23 20:15:02,705 - INFO - Cleaned up data older than 30 days
+2025-06-23 20:15:02,706 - INFO - Monitoring cycle completed successfully

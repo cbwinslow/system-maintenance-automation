@@ -1,0 +1,26 @@
+2025-06-23 17:56:24 - SECTION: LVM STORAGE MIGRATION STARTING
+2025-06-23 17:56:24 - Migration started with DRY_RUN=true, FORCE=false
+2025-06-23 17:56:24 - WARN: RUNNING IN DRY RUN MODE - NO ACTUAL CHANGES WILL BE MADE
+2025-06-23 17:56:24 - SECTION: CHECKING PREREQUISITES
+2025-06-23 17:56:24 - INFO: All storage volumes are properly mounted
+2025-06-23 17:56:24 - INFO: Available space - Projects: 112233608KB, Media: 194808504KB, Backups: 96793108KB
+2025-06-23 17:56:24 - SECTION: CALCULATING DATA SIZES
+2025-06-23 17:56:36 - INFO: Project directories:
+2025-06-23 17:56:36 - INFO:   Projects: 7770MB
+2025-06-23 17:56:36 - INFO:   dev: 171114MB
+2025-06-23 17:56:36 - INFO:   CascadeProjects: 18797MB
+2025-06-23 17:56:36 - INFO:   devops-testing: 6227MB
+2025-06-23 17:56:36 - INFO: Media directories:
+2025-06-23 17:56:36 - INFO:   Music: 0MB
+2025-06-23 17:56:36 - INFO:   Videos: 0MB
+2025-06-23 17:56:36 - INFO:   Pictures: 1MB
+2025-06-23 17:56:36 - INFO: Downloads: 21226MB
+2025-06-23 17:56:36 - SECTION: CREATING DIRECTORY STRUCTURE
+2025-06-23 17:56:36 - WARN: DRY RUN: Would create directory structure
+2025-06-23 17:56:36 - SECTION: MIGRATING PROJECT DIRECTORIES
+2025-06-23 17:56:37 - INFO: Migrating /home/cbwinslow/CascadeProjects (19G) to /mnt/storage/projects/active/work
+2025-06-23 17:56:37 - WARN: DRY RUN: Would migrate /home/cbwinslow/CascadeProjects to /mnt/storage/projects/active/work
+2025-06-23 17:56:37 - INFO: Migrating /home/cbwinslow/devops-testing (6.1G) to /mnt/storage/projects/active/devops
+2025-06-23 17:56:37 - WARN: DRY RUN: Would migrate /home/cbwinslow/devops-testing to /mnt/storage/projects/active/devops
+2025-06-23 17:56:37 - INFO: Migrating /home/cbwinslow/Projects (7.6G) to /mnt/storage/projects/active/personal
+2025-06-23 17:56:37 - WARN: DRY RUN: Would migrate /home/cbwinslow/Projects to /mnt/storage/projects/active/personal

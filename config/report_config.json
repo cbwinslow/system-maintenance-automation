@@ -1,0 +1,28 @@
+{
+  "report_types": [
+    "daily",
+    "weekly",
+    "monthly"
+  ],
+  "include_charts": true,
+  "chart_format": "png",
+  "retention_days": 90,
+  "email_reports": {
+    "enabled": false,
+    "recipients": [
+      "admin@localhost"
+    ],
+    "smtp_server": "localhost",
+    "smtp_port": 587,
+    "username": "",
+    "password": ""
+  },
+  "thresholds": {
+    "disk_usage_warning": 80,
+    "disk_usage_critical": 90,
+    "memory_usage_warning": 80,
+    "memory_usage_critical": 90,
+    "load_average_warning": 2.0,
+    "load_average_critical": 4.0
+  }
+}

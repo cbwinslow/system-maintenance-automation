@@ -1,0 +1,48 @@
+Daily System Report - 2025-06-23
+==================================================
+
+EXECUTIVE SUMMARY
+--------------------
+Report generated: 2025-06-23 20:16:22
+Data period: Last 24 hours
+
+CLEANUP EFFECTIVENESS
+-------------------------
+Path: /
+  Current usage: 77.22%
+  Daily change: 0.01%
+  Effectiveness: stable
+  Cleanup events: 0
+
+Path: /home
+  Current usage: 77.22%
+  Daily change: 0.01%
+  Effectiveness: stable
+  Cleanup events: 0
+
+Path: /var
+  Current usage: 77.22%
+  Daily change: 0.01%
+  Effectiveness: stable
+  Cleanup events: 0
+
+Path: /tmp
+  Current usage: 1.31%
+  Daily change: 0.0%
+  Effectiveness: stable
+  Cleanup events: 0
+
+SYSTEM HEALTH TRENDS (7-day)
+------------------------------
+CPU: 60.23% avg, trend: increasing
+Memory: 54.13% avg, trend: increasing
+Load: 9.69 avg, trend: increasing
+
+RECENT ALERTS (24h)
+--------------------
+No alerts in the last 24 hours.
+
+RECOMMENDATIONS
+---------------
+• Monitor CPU usage - increasing trend detected
+• Monitor memory usage - increasing trend detected

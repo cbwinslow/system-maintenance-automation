@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/home/cbwinslow/system-maintenance-automation/venv/bin/python
 """
 System Monitoring Script
 Tracks disk usage trends, inode usage, filesystem health, and alerts on thresholds
@@ -14,8 +14,8 @@ import psutil
 import logging
 from datetime import datetime, timedelta
 from pathlib import Path
-from email.mime.text import MimeText
-from email.mime.multipart import MimeMultipart
+from email.mime.text import MIMEText as MimeText
+from email.mime.multipart import MIMEMultipart as MimeMultipart
 from typing import Dict, List, Tuple, Optional
 
 # Configuration
@@ -367,7 +367,7 @@ class SystemMonitor:
     
     def cleanup_old_data(self):
         """Clean up old data based on retention policy."""
-        retention_date = datetime.now() - timedelta(days=self.config['retention_days'])
+        retention_date = (datetime.now() - timedelta(days=self.config['retention_days'])).strftime('%Y-%m-%d %H:%M:%S')
         
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
@@ -377,7 +377,7 @@ class SystemMonitor:
                 cursor.execute(f'DELETE FROM {table} WHERE timestamp < ?', (retention_date,))
             
             # Keep alerts for longer (90 days)
-            alert_retention_date = datetime.now() - timedelta(days=90)
+            alert_retention_date = (datetime.now() - timedelta(days=90)).strftime('%Y-%m-%d %H:%M:%S')
             cursor.execute('DELETE FROM alerts WHERE timestamp < ?', (alert_retention_date,))
             
             conn.commit()
