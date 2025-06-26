@@ -1,0 +1,21 @@
+logrotate state -- version 2
+"/home/cbwinslow/system-maintenance-automation/logs/maintenance_cron.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/lvm_migration_20250623_151206.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/reports_cron.log" 2025-6-25-2:0:0
+"/home/cbwinslow/system-maintenance-automation/logs/backup_20250625_010001.log" 2025-6-25-2:0:0
+"/home/cbwinslow/system-maintenance-automation/logs/lvm_migration_20250623_154920.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/lvm_migration_20250623_175624.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/lvm_migration_20250623_152639.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/lvm_migration_20250623_182822.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/monitor_cron.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/backup_20250624_010001.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/maintenance.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/lvm_migration_20250623_151120.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/backup_20250623_160204.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/logrotate.log" 2025-6-24-2:0:0
+"/home/cbwinslow/system-maintenance-automation/logs/automation_setup.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/lvm_migration_20250623_151141.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/system_metrics.db" 2025-6-24-2:0:0
+"/home/cbwinslow/system-maintenance-automation/logs/backup_cron.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/reports.log" 2025-6-25-2:0:1
+"/home/cbwinslow/system-maintenance-automation/logs/monitor.log" 2025-6-25-2:0:1

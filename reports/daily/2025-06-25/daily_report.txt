@@ -1,0 +1,240 @@
+Daily System Report - 2025-06-25
+==================================================
+
+EXECUTIVE SUMMARY
+--------------------
+Report generated: 2025-06-25 06:00:06
+Data period: Last 24 hours
+
+CLEANUP EFFECTIVENESS
+-------------------------
+Path: /
+  Current usage: 85.7%
+  Daily change: 4.52%
+  Effectiveness: stable
+  Cleanup events: 0
+
+Path: /home
+  Current usage: 85.7%
+  Daily change: 4.52%
+  Effectiveness: stable
+  Cleanup events: 0
+
+Path: /var
+  Current usage: 85.7%
+  Daily change: 4.52%
+  Effectiveness: stable
+  Cleanup events: 0
+
+Path: /tmp
+  Current usage: 2.28%
+  Daily change: 1.27%
+  Effectiveness: stable
+  Cleanup events: 0
+
+SYSTEM HEALTH TRENDS (7-day)
+------------------------------
+CPU: 33.64% avg, trend: stable
+Memory: 68.97% avg, trend: stable
+Load: 6.1 avg, trend: stable
+
+RECENT ALERTS (24h)
+--------------------
+[WARNING] disk_usage: Disk usage on / is 85.7% (threshold: 85%)
+  Time: 2025-06-25 10:00:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.7% (threshold: 85%)
+  Time: 2025-06-25 10:00:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.7% (threshold: 85%)
+  Time: 2025-06-25 10:00:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:55:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:55:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:55:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:50:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:50:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:50:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:45:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:45:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:45:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:40:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:40:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:40:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.71% (threshold: 85%)
+  Time: 2025-06-25 09:35:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.71% (threshold: 85%)
+  Time: 2025-06-25 09:35:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.71% (threshold: 85%)
+  Time: 2025-06-25 09:35:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.71% (threshold: 85%)
+  Time: 2025-06-25 09:30:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.71% (threshold: 85%)
+  Time: 2025-06-25 09:30:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.71% (threshold: 85%)
+  Time: 2025-06-25 09:30:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:25:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:25:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:25:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:20:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:20:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:20:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:15:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:15:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:15:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:10:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:10:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.7% (threshold: 85%)
+  Time: 2025-06-25 09:10:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:05:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:05:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:05:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:00:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:00:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.69% (threshold: 85%)
+  Time: 2025-06-25 09:00:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.69% (threshold: 85%)
+  Time: 2025-06-25 08:55:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.69% (threshold: 85%)
+  Time: 2025-06-25 08:55:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.69% (threshold: 85%)
+  Time: 2025-06-25 08:55:02
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.69% (threshold: 85%)
+  Time: 2025-06-25 08:50:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.69% (threshold: 85%)
+  Time: 2025-06-25 08:50:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.69% (threshold: 85%)
+  Time: 2025-06-25 08:50:03
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on / is 85.69% (threshold: 85%)
+  Time: 2025-06-25 08:45:06
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /home is 85.69% (threshold: 85%)
+  Time: 2025-06-25 08:45:06
+  Resolved: No
+
+[WARNING] disk_usage: Disk usage on /var is 85.69% (threshold: 85%)
+  Time: 2025-06-25 08:45:06
+  Resolved: No
+
+RECOMMENDATIONS
+---------------
+• Consider cleanup for / - usage at 85.7%
+• Consider cleanup for /home - usage at 85.7%
+• Consider cleanup for /var - usage at 85.7%
+• Address recurring disk_usage alerts (48 occurrences)

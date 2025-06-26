@@ -1,49 +1,0 @@
-2025-06-23 15:49:21 - SECTION: LVM STORAGE MIGRATION STARTING
-2025-06-23 15:49:21 - Migration started with DRY_RUN=false, FORCE=false
-2025-06-23 15:49:21 - SECTION: CHECKING PREREQUISITES
-2025-06-23 15:49:21 - INFO: All storage volumes are properly mounted
-2025-06-23 15:49:21 - INFO: Available space - Projects: 112233652KB, Media: 194809764KB, Backups: 97364860KB
-2025-06-23 15:49:21 - SECTION: CALCULATING DATA SIZES
-2025-06-23 15:49:25 - INFO: Project directories:
-2025-06-23 15:49:25 - INFO:   Projects: 7769MB
-2025-06-23 15:49:25 - INFO:   dev: 171114MB
-2025-06-23 15:49:25 - INFO:   CascadeProjects: 18797MB
-2025-06-23 15:49:25 - INFO:   devops-testing: 6227MB
-2025-06-23 15:49:25 - INFO: Media directories:
-2025-06-23 15:49:25 - INFO:   Music: 0MB
-2025-06-23 15:49:25 - INFO:   Videos: 0MB
-2025-06-23 15:49:25 - INFO:   Pictures: 1MB
-2025-06-23 15:49:25 - INFO: Downloads: 21226MB
-2025-06-23 15:49:25 - SECTION: CREATING DIRECTORY STRUCTURE
-2025-06-23 15:49:25 - INFO: Directory structure created successfully
-2025-06-23 15:49:25 - SECTION: MIGRATING PROJECT DIRECTORIES
-2025-06-23 15:49:25 - INFO: Migrating /home/cbwinslow/CascadeProjects (19G) to /mnt/storage/projects/active/work
-sending incremental file list
-
-sent 3,492,948 bytes  received 11,920 bytes  1,401,947.20 bytes/sec
-total size is 19,415,449,861  speedup is 5,539.57
-2025-06-23 15:55:35 - ERROR: Migration verification failed for /home/cbwinslow/CascadeProjects
-2025-06-23 15:55:35 - INFO: Migrating /home/cbwinslow/devops-testing (6.1G) to /mnt/storage/projects/active/devops
-sending incremental file list
-
-sent 1,051,185 bytes  received 3,362 bytes  703,031.33 bytes/sec
-total size is 6,438,707,456  speedup is 6,105.66
-2025-06-23 15:57:29 - ERROR: Migration verification failed for /home/cbwinslow/devops-testing
-2025-06-23 15:57:30 - INFO: Migrating /home/cbwinslow/Projects (7.6G) to /mnt/storage/projects/active/personal
-sending incremental file list
-doc_assembler_web/apps/backend/src/middleware/
-doc_assembler_web/apps/backend/src/middleware/auth.ts
-          7,699 100%    0.00kB/s    0:00:00            7,699 100%    0.00kB/s    0:00:00 (xfr#1, ir-chk=1029/136913)
-doc_assembler_web/packages/database/
-doc_assembler_web/packages/database/package.json
-            911 100%    1.39kB/s    0:00:00              911 100%    1.39kB/s    0:00:00 (xfr#2, ir-chk=1049/189862)
-doc_assembler_web/packages/database/prisma/
-doc_assembler_web/packages/database/prisma/schema.prisma
-         10,230 100%   15.63kB/s    0:00:00           10,230 100%   15.63kB/s    0:00:00 (xfr#3, ir-chk=1046/189862)
-doc_assembler_web/packages/database/scripts/
-doc_assembler_web/packages/database/scripts/seed.ts
-         11,915 100%   18.21kB/s    0:00:00           11,915 100%   18.21kB/s    0:00:00 (xfr#4, ir-chk=1045/189862)
-
-sent 6,386,310 bytes  received 14,753 bytes  2,560,425.20 bytes/sec
-total size is 7,505,467,712  speedup is 1,172.53
-2025-06-23 16:00:57 - ERROR: Migration verification failed for /home/cbwinslow/Projects

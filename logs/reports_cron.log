@@ -1,0 +1,12 @@
+2025-06-24 06:00:03,968 - INFO - Generating daily report
+2025-06-24 06:00:03,969 - INFO - Analyzing cleanup effectiveness for the last 1 days
+2025-06-24 06:00:04,005 - INFO - Generating trend analysis for the last 7 days
+2025-06-24 06:00:04,203 - INFO - Creating visualization charts
+2025-06-24 06:00:06,888 - INFO - Daily report generated: /home/cbwinslow/system-maintenance-automation/reports/daily/2025-06-24/daily_report.txt
+Daily report generated: /home/cbwinslow/system-maintenance-automation/reports/daily/2025-06-24/daily_report.txt
+2025-06-25 06:00:03,601 - INFO - Generating daily report
+2025-06-25 06:00:03,607 - INFO - Analyzing cleanup effectiveness for the last 1 days
+2025-06-25 06:00:03,650 - INFO - Generating trend analysis for the last 7 days
+2025-06-25 06:00:03,804 - INFO - Creating visualization charts
+2025-06-25 06:00:06,322 - INFO - Daily report generated: /home/cbwinslow/system-maintenance-automation/reports/daily/2025-06-25/daily_report.txt
+Daily report generated: /home/cbwinslow/system-maintenance-automation/reports/daily/2025-06-25/daily_report.txt

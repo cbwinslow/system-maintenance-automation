@@ -1,27 +1,840 @@
-2025-06-23 20:13:39,480 - INFO - Starting monitoring cycle
-2025-06-23 20:13:40,602 - INFO - Cleaned up data older than 30 days
-2025-06-23 20:13:40,602 - INFO - Monitoring cycle completed successfully
-2025-06-23 20:14:13,966 - INFO - Starting monitoring cycle
-2025-06-23 20:14:15,137 - INFO - Cleaned up data older than 30 days
-2025-06-23 20:14:15,137 - INFO - Monitoring cycle completed successfully
-2025-06-23 20:15:01,193 - INFO - Starting monitoring cycle
-2025-06-23 20:15:02,705 - INFO - Cleaned up data older than 30 days
-2025-06-23 20:15:02,706 - INFO - Monitoring cycle completed successfully
-2025-06-23 20:20:02,105 - INFO - Starting monitoring cycle
-2025-06-23 20:20:03,473 - INFO - Cleaned up data older than 30 days
-2025-06-23 20:20:03,473 - INFO - Monitoring cycle completed successfully
-2025-06-23 20:25:01,609 - INFO - Starting monitoring cycle
-2025-06-23 20:25:02,854 - INFO - Cleaned up data older than 30 days
-2025-06-23 20:25:02,854 - INFO - Monitoring cycle completed successfully
-2025-06-23 20:30:02,138 - INFO - Starting monitoring cycle
-2025-06-23 20:30:03,271 - INFO - Cleaned up data older than 30 days
-2025-06-23 20:30:03,272 - INFO - Monitoring cycle completed successfully
-2025-06-23 20:35:01,364 - INFO - Starting monitoring cycle
-2025-06-23 20:35:03,509 - INFO - Cleaned up data older than 30 days
-2025-06-23 20:35:03,509 - INFO - Monitoring cycle completed successfully
-2025-06-23 20:40:01,600 - INFO - Starting monitoring cycle
-2025-06-23 20:40:02,752 - INFO - Cleaned up data older than 30 days
-2025-06-23 20:40:02,752 - INFO - Monitoring cycle completed successfully
-2025-06-23 20:45:01,848 - INFO - Starting monitoring cycle
-2025-06-23 20:45:03,175 - INFO - Cleaned up data older than 30 days
-2025-06-23 20:45:03,175 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:00:01,104 - INFO - Starting monitoring cycle
+2025-06-25 02:00:02,676 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:00:02,676 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:05:01,789 - INFO - Starting monitoring cycle
+2025-06-25 02:05:02,971 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:05:02,971 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:10:02,076 - INFO - Starting monitoring cycle
+2025-06-25 02:10:03,356 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:10:03,356 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:15:01,467 - INFO - Starting monitoring cycle
+2025-06-25 02:15:02,702 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:15:02,702 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:20:01,824 - INFO - Starting monitoring cycle
+2025-06-25 02:20:02,950 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:20:02,950 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:25:02,074 - INFO - Starting monitoring cycle
+2025-06-25 02:25:03,161 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:25:03,161 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:30:01,276 - INFO - Starting monitoring cycle
+2025-06-25 02:30:02,389 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:30:02,390 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:35:01,498 - INFO - Starting monitoring cycle
+2025-06-25 02:35:02,603 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:35:02,603 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:40:01,715 - INFO - Starting monitoring cycle
+2025-06-25 02:40:02,798 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:40:02,798 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:45:01,912 - INFO - Starting monitoring cycle
+2025-06-25 02:45:03,230 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:45:03,230 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:50:01,346 - INFO - Starting monitoring cycle
+2025-06-25 02:50:02,542 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:50:02,542 - INFO - Monitoring cycle completed successfully
+2025-06-25 02:55:01,660 - INFO - Starting monitoring cycle
+2025-06-25 02:55:03,166 - INFO - Cleaned up data older than 30 days
+2025-06-25 02:55:03,167 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:00:01,283 - INFO - Starting monitoring cycle
+2025-06-25 03:00:02,838 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:00:02,838 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:05:01,950 - INFO - Starting monitoring cycle
+2025-06-25 03:05:03,815 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:05:03,815 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:10:01,928 - INFO - Starting monitoring cycle
+2025-06-25 03:10:03,026 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:10:03,026 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:15:01,139 - INFO - Starting monitoring cycle
+2025-06-25 03:15:02,865 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:15:02,865 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:20:01,985 - INFO - Starting monitoring cycle
+2025-06-25 03:20:03,053 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:20:03,054 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:25:01,173 - INFO - Starting monitoring cycle
+2025-06-25 03:25:02,256 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:25:02,256 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:30:01,363 - INFO - Starting monitoring cycle
+2025-06-25 03:30:02,434 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:30:02,434 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:35:01,539 - INFO - Starting monitoring cycle
+2025-06-25 03:35:02,672 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:35:02,672 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:40:01,758 - INFO - Starting monitoring cycle
+2025-06-25 03:40:02,866 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:40:02,866 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:45:01,979 - INFO - Starting monitoring cycle
+2025-06-25 03:45:03,634 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:45:03,634 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:50:01,839 - INFO - Starting monitoring cycle
+2025-06-25 03:50:03,084 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:50:03,084 - INFO - Monitoring cycle completed successfully
+2025-06-25 03:55:01,202 - INFO - Starting monitoring cycle
+2025-06-25 03:55:02,490 - INFO - Cleaned up data older than 30 days
+2025-06-25 03:55:02,490 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:00:01,599 - INFO - Starting monitoring cycle
+2025-06-25 04:00:03,382 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:00:03,382 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:05:01,491 - INFO - Starting monitoring cycle
+2025-06-25 04:05:02,733 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:05:02,733 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:10:01,843 - INFO - Starting monitoring cycle
+2025-06-25 04:10:03,000 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:10:03,000 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:15:01,108 - INFO - Starting monitoring cycle
+2025-06-25 04:15:02,224 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:15:02,224 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:20:01,627 - INFO - Starting monitoring cycle
+2025-06-25 04:20:02,755 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:20:02,755 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:25:01,863 - INFO - Starting monitoring cycle
+2025-06-25 04:25:02,964 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:25:02,964 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:30:02,074 - INFO - Starting monitoring cycle
+2025-06-25 04:30:03,438 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:30:03,438 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:35:01,563 - INFO - Starting monitoring cycle
+2025-06-25 04:35:02,718 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:35:02,719 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:40:03,403 - INFO - Starting monitoring cycle
+2025-06-25 04:40:07,204 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:40:07,204 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:45:01,311 - INFO - Starting monitoring cycle
+2025-06-25 04:45:07,879 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:45:07,880 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:50:01,979 - INFO - Starting monitoring cycle
+2025-06-25 04:50:03,127 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:50:03,128 - INFO - Monitoring cycle completed successfully
+2025-06-25 04:55:01,234 - INFO - Starting monitoring cycle
+2025-06-25 04:55:02,570 - INFO - Cleaned up data older than 30 days
+2025-06-25 04:55:02,570 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:00:01,671 - INFO - Starting monitoring cycle
+2025-06-25 05:00:02,924 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:00:02,924 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:05:02,019 - INFO - Starting monitoring cycle
+2025-06-25 05:05:03,154 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:05:03,154 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:10:01,251 - INFO - Starting monitoring cycle
+2025-06-25 05:10:02,472 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:10:02,472 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:15:01,564 - INFO - Starting monitoring cycle
+2025-06-25 05:15:02,686 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:15:02,686 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:20:01,921 - INFO - Starting monitoring cycle
+2025-06-25 05:20:03,020 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:20:03,020 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:25:01,114 - INFO - Starting monitoring cycle
+2025-06-25 05:25:02,436 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:25:02,436 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:30:01,529 - INFO - Starting monitoring cycle
+2025-06-25 05:30:02,830 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:30:02,830 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:35:02,223 - INFO - Starting monitoring cycle
+2025-06-25 05:35:03,419 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:35:03,419 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:40:01,686 - INFO - Starting monitoring cycle
+2025-06-25 05:40:03,042 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:40:03,042 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:45:01,133 - INFO - Starting monitoring cycle
+2025-06-25 05:45:02,436 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:45:02,436 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:50:01,532 - INFO - Starting monitoring cycle
+2025-06-25 05:50:02,684 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:50:02,685 - INFO - Monitoring cycle completed successfully
+2025-06-25 05:55:01,907 - INFO - Starting monitoring cycle
+2025-06-25 05:55:03,008 - INFO - Cleaned up data older than 30 days
+2025-06-25 05:55:03,008 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:00:01,106 - INFO - Starting monitoring cycle
+2025-06-25 06:00:02,278 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:00:02,278 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:05:01,616 - INFO - Starting monitoring cycle
+2025-06-25 06:05:03,003 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:05:03,003 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:10:01,104 - INFO - Starting monitoring cycle
+2025-06-25 06:10:02,251 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:10:02,251 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:15:01,341 - INFO - Starting monitoring cycle
+2025-06-25 06:15:02,615 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:15:02,615 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:20:01,863 - INFO - Starting monitoring cycle
+2025-06-25 06:20:02,948 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:20:02,948 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:25:02,045 - INFO - Starting monitoring cycle
+2025-06-25 06:25:03,217 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:25:03,217 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:30:01,310 - INFO - Starting monitoring cycle
+2025-06-25 06:30:02,488 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:30:02,488 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:35:01,574 - INFO - Starting monitoring cycle
+2025-06-25 06:35:02,661 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:35:02,661 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:40:01,756 - INFO - Starting monitoring cycle
+2025-06-25 06:40:02,857 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:40:02,857 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:45:01,946 - INFO - Starting monitoring cycle
+2025-06-25 06:45:04,736 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:45:04,736 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:50:01,832 - INFO - Starting monitoring cycle
+2025-06-25 06:50:03,011 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:50:03,011 - INFO - Monitoring cycle completed successfully
+2025-06-25 06:55:01,104 - INFO - Starting monitoring cycle
+2025-06-25 06:55:02,329 - INFO - Cleaned up data older than 30 days
+2025-06-25 06:55:02,329 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:00:01,423 - INFO - Starting monitoring cycle
+2025-06-25 07:00:02,646 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:00:02,647 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:05:01,740 - INFO - Starting monitoring cycle
+2025-06-25 07:05:02,922 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:05:02,923 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:10:02,016 - INFO - Starting monitoring cycle
+2025-06-25 07:10:03,213 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:10:03,213 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:15:01,298 - INFO - Starting monitoring cycle
+2025-06-25 07:15:03,371 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:15:03,371 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:20:01,480 - INFO - Starting monitoring cycle
+2025-06-25 07:20:02,719 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:20:02,719 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:25:01,816 - INFO - Starting monitoring cycle
+2025-06-25 07:25:02,894 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:25:02,894 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:30:01,992 - INFO - Starting monitoring cycle
+2025-06-25 07:30:03,147 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:30:03,147 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:35:01,238 - INFO - Starting monitoring cycle
+2025-06-25 07:35:02,334 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:35:02,334 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:40:01,425 - INFO - Starting monitoring cycle
+2025-06-25 07:40:02,613 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:40:02,614 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:45:02,069 - INFO - Starting monitoring cycle
+2025-06-25 07:45:03,171 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:45:03,171 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:50:01,263 - INFO - Starting monitoring cycle
+2025-06-25 07:50:02,556 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:50:02,556 - INFO - Monitoring cycle completed successfully
+2025-06-25 07:55:01,649 - INFO - Starting monitoring cycle
+2025-06-25 07:55:02,850 - INFO - Cleaned up data older than 30 days
+2025-06-25 07:55:02,850 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:00:01,942 - INFO - Starting monitoring cycle
+2025-06-25 08:00:03,822 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:00:03,822 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:05:01,920 - INFO - Starting monitoring cycle
+2025-06-25 08:05:03,105 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:05:03,105 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:10:01,224 - INFO - Starting monitoring cycle
+2025-06-25 08:10:02,329 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:10:02,329 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:15:01,427 - INFO - Starting monitoring cycle
+2025-06-25 08:15:02,657 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:15:02,657 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:20:01,761 - INFO - Starting monitoring cycle
+2025-06-25 08:20:02,848 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:20:02,848 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:25:01,955 - INFO - Starting monitoring cycle
+2025-06-25 08:25:03,793 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:25:03,793 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:30:01,890 - INFO - Starting monitoring cycle
+2025-06-25 08:30:03,123 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:30:03,123 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:35:01,215 - INFO - Starting monitoring cycle
+2025-06-25 08:35:02,373 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:35:02,373 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:40:01,469 - INFO - Starting monitoring cycle
+2025-06-25 08:40:02,686 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:40:02,686 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:45:01,781 - INFO - Starting monitoring cycle
+2025-06-25 08:45:02,949 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:45:02,949 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:50:02,042 - INFO - Starting monitoring cycle
+2025-06-25 08:50:03,171 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:50:03,171 - INFO - Monitoring cycle completed successfully
+2025-06-25 08:55:01,273 - INFO - Starting monitoring cycle
+2025-06-25 08:55:02,470 - INFO - Cleaned up data older than 30 days
+2025-06-25 08:55:02,470 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:00:01,569 - INFO - Starting monitoring cycle
+2025-06-25 09:00:02,782 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:00:02,782 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:05:01,873 - INFO - Starting monitoring cycle
+2025-06-25 09:05:03,077 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:05:03,077 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:10:01,169 - INFO - Starting monitoring cycle
+2025-06-25 09:10:02,267 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:10:02,267 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:15:01,359 - INFO - Starting monitoring cycle
+2025-06-25 09:15:02,457 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:15:02,457 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:20:01,568 - INFO - Starting monitoring cycle
+2025-06-25 09:20:03,087 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:20:03,087 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:25:01,178 - INFO - Starting monitoring cycle
+2025-06-25 09:25:02,377 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:25:02,377 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:30:01,463 - INFO - Starting monitoring cycle
+2025-06-25 09:30:02,716 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:30:02,716 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:35:01,815 - INFO - Starting monitoring cycle
+2025-06-25 09:35:03,151 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:35:03,151 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:40:01,245 - INFO - Starting monitoring cycle
+2025-06-25 09:40:02,449 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:40:02,449 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:45:01,547 - INFO - Starting monitoring cycle
+2025-06-25 09:45:02,927 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:45:02,927 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:50:02,021 - INFO - Starting monitoring cycle
+2025-06-25 09:50:03,108 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:50:03,108 - INFO - Monitoring cycle completed successfully
+2025-06-25 09:55:01,196 - INFO - Starting monitoring cycle
+2025-06-25 09:55:02,357 - INFO - Cleaned up data older than 30 days
+2025-06-25 09:55:02,357 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:00:01,456 - INFO - Starting monitoring cycle
+2025-06-25 10:00:02,689 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:00:02,689 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:05:01,777 - INFO - Starting monitoring cycle
+2025-06-25 10:05:02,913 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:05:02,913 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:10:02,016 - INFO - Starting monitoring cycle
+2025-06-25 10:10:03,127 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:10:03,127 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:15:01,224 - INFO - Starting monitoring cycle
+2025-06-25 10:15:02,370 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:15:02,370 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:20:01,472 - INFO - Starting monitoring cycle
+2025-06-25 10:20:02,556 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:20:02,557 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:25:01,646 - INFO - Starting monitoring cycle
+2025-06-25 10:25:02,826 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:25:02,826 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:30:01,916 - INFO - Starting monitoring cycle
+2025-06-25 10:30:03,089 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:30:03,089 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:35:01,188 - INFO - Starting monitoring cycle
+2025-06-25 10:35:02,348 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:35:02,348 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:40:01,442 - INFO - Starting monitoring cycle
+2025-06-25 10:40:02,583 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:40:02,583 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:45:01,747 - INFO - Starting monitoring cycle
+2025-06-25 10:45:02,824 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:45:02,824 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:50:01,916 - INFO - Starting monitoring cycle
+2025-06-25 10:50:03,138 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:50:03,138 - INFO - Monitoring cycle completed successfully
+2025-06-25 10:55:01,233 - INFO - Starting monitoring cycle
+2025-06-25 10:55:02,390 - INFO - Cleaned up data older than 30 days
+2025-06-25 10:55:02,391 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:00:01,547 - INFO - Starting monitoring cycle
+2025-06-25 11:00:02,683 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:00:02,683 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:05:01,776 - INFO - Starting monitoring cycle
+2025-06-25 11:05:02,858 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:05:02,858 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:10:01,955 - INFO - Starting monitoring cycle
+2025-06-25 11:10:03,100 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:10:03,100 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:15:01,194 - INFO - Starting monitoring cycle
+2025-06-25 11:15:02,429 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:15:02,429 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:20:01,895 - INFO - Starting monitoring cycle
+2025-06-25 11:20:03,105 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:20:03,105 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:25:01,203 - INFO - Starting monitoring cycle
+2025-06-25 11:25:02,324 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:25:02,324 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:30:01,526 - INFO - Starting monitoring cycle
+2025-06-25 11:30:02,731 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:30:02,731 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:35:02,415 - INFO - Starting monitoring cycle
+2025-06-25 11:35:05,551 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:35:05,551 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:40:01,700 - INFO - Starting monitoring cycle
+2025-06-25 11:40:02,798 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:40:02,799 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:45:01,917 - INFO - Starting monitoring cycle
+2025-06-25 11:45:03,093 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:45:03,093 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:50:01,190 - INFO - Starting monitoring cycle
+2025-06-25 11:50:03,523 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:50:03,523 - INFO - Monitoring cycle completed successfully
+2025-06-25 11:55:01,617 - INFO - Starting monitoring cycle
+2025-06-25 11:55:02,772 - INFO - Cleaned up data older than 30 days
+2025-06-25 11:55:02,772 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:00:01,871 - INFO - Starting monitoring cycle
+2025-06-25 12:00:03,022 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:00:03,022 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:05:01,116 - INFO - Starting monitoring cycle
+2025-06-25 12:05:02,195 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:05:02,195 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:10:01,292 - INFO - Starting monitoring cycle
+2025-06-25 12:10:02,568 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:10:02,568 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:15:01,662 - INFO - Starting monitoring cycle
+2025-06-25 12:15:02,993 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:15:02,993 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:20:01,156 - INFO - Starting monitoring cycle
+2025-06-25 12:20:02,307 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:20:02,307 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:25:01,397 - INFO - Starting monitoring cycle
+2025-06-25 12:25:02,499 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:25:02,499 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:30:01,597 - INFO - Starting monitoring cycle
+2025-06-25 12:30:02,965 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:30:02,965 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:35:02,055 - INFO - Starting monitoring cycle
+2025-06-25 12:35:03,355 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:35:03,356 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:40:01,453 - INFO - Starting monitoring cycle
+2025-06-25 12:40:02,550 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:40:02,550 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:45:01,643 - INFO - Starting monitoring cycle
+2025-06-25 12:45:02,739 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:45:02,739 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:50:01,831 - INFO - Starting monitoring cycle
+2025-06-25 12:50:02,916 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:50:02,916 - INFO - Monitoring cycle completed successfully
+2025-06-25 12:55:02,010 - INFO - Starting monitoring cycle
+2025-06-25 12:55:04,691 - INFO - Cleaned up data older than 30 days
+2025-06-25 12:55:04,691 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:00:01,794 - INFO - Starting monitoring cycle
+2025-06-25 13:00:03,029 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:00:03,029 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:05:01,143 - INFO - Starting monitoring cycle
+2025-06-25 13:05:02,329 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:05:02,330 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:10:01,424 - INFO - Starting monitoring cycle
+2025-06-25 13:10:02,579 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:10:02,579 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:15:01,967 - INFO - Starting monitoring cycle
+2025-06-25 13:15:03,107 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:15:03,107 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:20:01,274 - INFO - Starting monitoring cycle
+2025-06-25 13:20:02,497 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:20:02,497 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:25:01,628 - INFO - Starting monitoring cycle
+2025-06-25 13:25:02,755 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:25:02,756 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:30:01,843 - INFO - Starting monitoring cycle
+2025-06-25 13:30:03,050 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:30:03,050 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:35:01,206 - INFO - Starting monitoring cycle
+2025-06-25 13:35:02,355 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:35:02,355 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:40:02,319 - INFO - Starting monitoring cycle
+2025-06-25 13:40:03,501 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:40:03,501 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:45:01,588 - INFO - Starting monitoring cycle
+2025-06-25 13:45:02,691 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:45:02,691 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:50:02,302 - INFO - Starting monitoring cycle
+2025-06-25 13:50:03,457 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:50:03,457 - INFO - Monitoring cycle completed successfully
+2025-06-25 13:55:01,570 - INFO - Starting monitoring cycle
+2025-06-25 13:55:03,892 - INFO - Cleaned up data older than 30 days
+2025-06-25 13:55:03,892 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:00:01,988 - INFO - Starting monitoring cycle
+2025-06-25 14:00:03,064 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:00:03,064 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:05:01,158 - INFO - Starting monitoring cycle
+2025-06-25 14:05:02,501 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:05:02,501 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:10:01,591 - INFO - Starting monitoring cycle
+2025-06-25 14:10:02,840 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:10:02,840 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:15:01,937 - INFO - Starting monitoring cycle
+2025-06-25 14:15:03,045 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:15:03,045 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:20:01,164 - INFO - Starting monitoring cycle
+2025-06-25 14:20:02,272 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:20:02,272 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:25:01,532 - INFO - Starting monitoring cycle
+2025-06-25 14:25:02,711 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:25:02,711 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:30:01,890 - INFO - Starting monitoring cycle
+2025-06-25 14:30:03,272 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:30:03,272 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:35:01,601 - INFO - Starting monitoring cycle
+2025-06-25 14:35:02,709 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:35:02,709 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:40:01,802 - INFO - Starting monitoring cycle
+2025-06-25 14:40:03,179 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:40:03,180 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:45:01,273 - INFO - Starting monitoring cycle
+2025-06-25 14:45:02,556 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:45:02,556 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:50:01,652 - INFO - Starting monitoring cycle
+2025-06-25 14:50:02,774 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:50:02,774 - INFO - Monitoring cycle completed successfully
+2025-06-25 14:55:01,879 - INFO - Starting monitoring cycle
+2025-06-25 14:55:03,114 - INFO - Cleaned up data older than 30 days
+2025-06-25 14:55:03,114 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:00:01,206 - INFO - Starting monitoring cycle
+2025-06-25 15:00:02,308 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:00:02,308 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:05:01,401 - INFO - Starting monitoring cycle
+2025-06-25 15:05:02,497 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:05:02,497 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:10:01,587 - INFO - Starting monitoring cycle
+2025-06-25 15:10:02,996 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:10:02,996 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:15:01,088 - INFO - Starting monitoring cycle
+2025-06-25 15:15:02,368 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:15:02,368 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:20:02,069 - INFO - Starting monitoring cycle
+2025-06-25 15:20:03,216 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:20:03,217 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:25:01,313 - INFO - Starting monitoring cycle
+2025-06-25 15:25:02,603 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:25:02,603 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:30:01,938 - INFO - Starting monitoring cycle
+2025-06-25 15:30:03,195 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:30:03,195 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:35:01,294 - INFO - Starting monitoring cycle
+2025-06-25 15:35:03,605 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:35:03,605 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:40:01,700 - INFO - Starting monitoring cycle
+2025-06-25 15:40:02,899 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:40:02,899 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:45:01,997 - INFO - Starting monitoring cycle
+2025-06-25 15:45:04,016 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:45:04,016 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:50:01,108 - INFO - Starting monitoring cycle
+2025-06-25 15:50:02,282 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:50:02,282 - INFO - Monitoring cycle completed successfully
+2025-06-25 15:55:01,372 - INFO - Starting monitoring cycle
+2025-06-25 15:55:02,597 - INFO - Cleaned up data older than 30 days
+2025-06-25 15:55:02,597 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:00:01,698 - INFO - Starting monitoring cycle
+2025-06-25 16:00:02,871 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:00:02,872 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:05:01,964 - INFO - Starting monitoring cycle
+2025-06-25 16:05:03,202 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:05:03,202 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:10:01,304 - INFO - Starting monitoring cycle
+2025-06-25 16:10:02,579 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:10:02,579 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:15:01,756 - INFO - Starting monitoring cycle
+2025-06-25 16:15:02,868 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:15:02,868 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:20:02,066 - INFO - Starting monitoring cycle
+2025-06-25 16:20:03,263 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:20:03,263 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:25:01,361 - INFO - Starting monitoring cycle
+2025-06-25 16:25:02,517 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:25:02,517 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:30:01,612 - INFO - Starting monitoring cycle
+2025-06-25 16:30:02,809 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:30:02,809 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:35:01,898 - INFO - Starting monitoring cycle
+2025-06-25 16:35:03,041 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:35:03,041 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:40:01,134 - INFO - Starting monitoring cycle
+2025-06-25 16:40:02,240 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:40:02,241 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:45:01,334 - INFO - Starting monitoring cycle
+2025-06-25 16:45:02,495 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:45:02,496 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:50:01,590 - INFO - Starting monitoring cycle
+2025-06-25 16:50:02,695 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:50:02,695 - INFO - Monitoring cycle completed successfully
+2025-06-25 16:55:01,822 - INFO - Starting monitoring cycle
+2025-06-25 16:55:03,480 - INFO - Cleaned up data older than 30 days
+2025-06-25 16:55:03,480 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:00:12,636 - INFO - Starting monitoring cycle
+2025-06-25 17:00:19,223 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:00:19,236 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:05:01,592 - INFO - Starting monitoring cycle
+2025-06-25 17:05:02,756 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:05:02,756 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:10:01,851 - INFO - Starting monitoring cycle
+2025-06-25 17:10:03,149 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:10:03,149 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:15:01,235 - INFO - Starting monitoring cycle
+2025-06-25 17:15:02,659 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:15:02,659 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:20:01,913 - INFO - Starting monitoring cycle
+2025-06-25 17:20:02,993 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:20:02,994 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:25:01,088 - INFO - Starting monitoring cycle
+2025-06-25 17:25:02,280 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:25:02,280 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:30:01,373 - INFO - Starting monitoring cycle
+2025-06-25 17:30:02,497 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:30:02,497 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:35:01,585 - INFO - Starting monitoring cycle
+2025-06-25 17:35:02,839 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:35:02,839 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:40:01,930 - INFO - Starting monitoring cycle
+2025-06-25 17:40:03,039 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:40:03,039 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:45:01,133 - INFO - Starting monitoring cycle
+2025-06-25 17:45:02,378 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:45:02,378 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:50:01,471 - INFO - Starting monitoring cycle
+2025-06-25 17:50:02,669 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:50:02,669 - INFO - Monitoring cycle completed successfully
+2025-06-25 17:55:01,775 - INFO - Starting monitoring cycle
+2025-06-25 17:55:03,007 - INFO - Cleaned up data older than 30 days
+2025-06-25 17:55:03,007 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:00:01,270 - INFO - Starting monitoring cycle
+2025-06-25 18:00:02,476 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:00:02,476 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:05:01,565 - INFO - Starting monitoring cycle
+2025-06-25 18:05:03,029 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:05:03,030 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:10:01,116 - INFO - Starting monitoring cycle
+2025-06-25 18:10:02,301 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:10:02,301 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:15:01,401 - INFO - Starting monitoring cycle
+2025-06-25 18:15:04,140 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:15:04,140 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:20:01,338 - INFO - Starting monitoring cycle
+2025-06-25 18:20:02,663 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:20:02,663 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:25:01,756 - INFO - Starting monitoring cycle
+2025-06-25 18:25:03,000 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:25:03,000 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:30:01,097 - INFO - Starting monitoring cycle
+2025-06-25 18:30:02,272 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:30:02,272 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:35:01,369 - INFO - Starting monitoring cycle
+2025-06-25 18:35:02,518 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:35:02,518 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:40:01,612 - INFO - Starting monitoring cycle
+2025-06-25 18:40:02,730 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:40:02,730 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:45:01,825 - INFO - Starting monitoring cycle
+2025-06-25 18:45:03,000 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:45:03,000 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:50:01,102 - INFO - Starting monitoring cycle
+2025-06-25 18:50:02,241 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:50:02,241 - INFO - Monitoring cycle completed successfully
+2025-06-25 18:55:01,456 - INFO - Starting monitoring cycle
+2025-06-25 18:55:02,548 - INFO - Cleaned up data older than 30 days
+2025-06-25 18:55:02,548 - INFO - Monitoring cycle completed successfully
+2025-06-25 19:00:01,639 - INFO - Starting monitoring cycle
+2025-06-25 19:00:02,803 - INFO - Cleaned up data older than 30 days
+2025-06-25 19:00:02,803 - INFO - Monitoring cycle completed successfully
+2025-06-25 19:05:01,900 - INFO - Starting monitoring cycle
+2025-06-25 19:05:02,995 - INFO - Cleaned up data older than 30 days
+2025-06-25 19:05:02,995 - INFO - Monitoring cycle completed successfully
+2025-06-25 19:10:01,089 - INFO - Starting monitoring cycle
+2025-06-25 19:10:02,184 - INFO - Cleaned up data older than 30 days
+2025-06-25 19:10:02,184 - INFO - Monitoring cycle completed successfully
+2025-06-25 19:40:05,500 - INFO - Starting monitoring cycle
+2025-06-25 19:40:07,643 - INFO - Cleaned up data older than 30 days
+2025-06-25 19:40:07,643 - INFO - Monitoring cycle completed successfully
+2025-06-25 19:45:01,910 - INFO - Starting monitoring cycle
+2025-06-25 19:45:03,035 - INFO - Cleaned up data older than 30 days
+2025-06-25 19:45:03,035 - INFO - Monitoring cycle completed successfully
+2025-06-25 19:50:01,132 - INFO - Starting monitoring cycle
+2025-06-25 19:50:02,263 - INFO - Cleaned up data older than 30 days
+2025-06-25 19:50:02,263 - INFO - Monitoring cycle completed successfully
+2025-06-25 19:55:01,359 - INFO - Starting monitoring cycle
+2025-06-25 19:55:02,519 - INFO - Cleaned up data older than 30 days
+2025-06-25 19:55:02,519 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:00:01,618 - INFO - Starting monitoring cycle
+2025-06-25 20:00:02,761 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:00:02,761 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:05:02,419 - INFO - Starting monitoring cycle
+2025-06-25 20:05:03,606 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:05:03,606 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:10:01,713 - INFO - Starting monitoring cycle
+2025-06-25 20:10:02,946 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:10:02,946 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:15:03,653 - INFO - Starting monitoring cycle
+2025-06-25 20:15:04,774 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:15:04,775 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:20:02,234 - INFO - Starting monitoring cycle
+2025-06-25 20:20:03,583 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:20:03,584 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:25:01,692 - INFO - Starting monitoring cycle
+2025-06-25 20:25:02,787 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:25:02,787 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:30:01,882 - INFO - Starting monitoring cycle
+2025-06-25 20:30:03,115 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:30:03,115 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:35:01,218 - INFO - Starting monitoring cycle
+2025-06-25 20:35:02,348 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:35:02,348 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:40:01,446 - INFO - Starting monitoring cycle
+2025-06-25 20:40:02,722 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:40:02,722 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:45:01,816 - INFO - Starting monitoring cycle
+2025-06-25 20:45:02,901 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:45:02,901 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:50:02,116 - INFO - Starting monitoring cycle
+2025-06-25 20:50:03,366 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:50:03,366 - INFO - Monitoring cycle completed successfully
+2025-06-25 20:55:01,461 - INFO - Starting monitoring cycle
+2025-06-25 20:55:02,556 - INFO - Cleaned up data older than 30 days
+2025-06-25 20:55:02,556 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:00:01,670 - INFO - Starting monitoring cycle
+2025-06-25 21:00:02,822 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:00:02,823 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:05:01,921 - INFO - Starting monitoring cycle
+2025-06-25 21:05:03,014 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:05:03,014 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:10:01,381 - INFO - Starting monitoring cycle
+2025-06-25 21:10:02,507 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:10:02,507 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:15:01,606 - INFO - Starting monitoring cycle
+2025-06-25 21:15:02,947 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:15:02,947 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:20:01,293 - INFO - Starting monitoring cycle
+2025-06-25 21:20:02,472 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:20:02,473 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:25:01,574 - INFO - Starting monitoring cycle
+2025-06-25 21:25:02,782 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:25:02,782 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:30:01,878 - INFO - Starting monitoring cycle
+2025-06-25 21:30:03,058 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:30:03,058 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:35:01,156 - INFO - Starting monitoring cycle
+2025-06-25 21:35:02,239 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:35:02,239 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:40:01,365 - INFO - Starting monitoring cycle
+2025-06-25 21:40:04,156 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:40:04,156 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:45:01,254 - INFO - Starting monitoring cycle
+2025-06-25 21:45:02,457 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:45:02,457 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:50:01,679 - INFO - Starting monitoring cycle
+2025-06-25 21:50:02,947 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:50:02,947 - INFO - Monitoring cycle completed successfully
+2025-06-25 21:55:02,044 - INFO - Starting monitoring cycle
+2025-06-25 21:55:03,171 - INFO - Cleaned up data older than 30 days
+2025-06-25 21:55:03,171 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:00:01,267 - INFO - Starting monitoring cycle
+2025-06-25 22:00:02,372 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:00:02,372 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:05:01,475 - INFO - Starting monitoring cycle
+2025-06-25 22:05:02,641 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:05:02,641 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:10:01,746 - INFO - Starting monitoring cycle
+2025-06-25 22:10:02,935 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:10:02,935 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:15:02,032 - INFO - Starting monitoring cycle
+2025-06-25 22:15:03,182 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:15:03,182 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:20:01,292 - INFO - Starting monitoring cycle
+2025-06-25 22:20:02,399 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:20:02,399 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:25:01,624 - INFO - Starting monitoring cycle
+2025-06-25 22:25:03,072 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:25:03,072 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:30:01,172 - INFO - Starting monitoring cycle
+2025-06-25 22:30:02,353 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:30:02,353 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:35:01,465 - INFO - Starting monitoring cycle
+2025-06-25 22:35:02,772 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:35:02,772 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:40:01,866 - INFO - Starting monitoring cycle
+2025-06-25 22:40:03,099 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:40:03,100 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:45:01,195 - INFO - Starting monitoring cycle
+2025-06-25 22:45:02,422 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:45:02,422 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:50:01,516 - INFO - Starting monitoring cycle
+2025-06-25 22:50:02,809 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:50:02,809 - INFO - Monitoring cycle completed successfully
+2025-06-25 22:55:01,905 - INFO - Starting monitoring cycle
+2025-06-25 22:55:02,995 - INFO - Cleaned up data older than 30 days
+2025-06-25 22:55:02,995 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:00:01,084 - INFO - Starting monitoring cycle
+2025-06-25 23:00:02,172 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:00:02,172 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:05:01,264 - INFO - Starting monitoring cycle
+2025-06-25 23:05:02,421 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:05:02,422 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:10:01,528 - INFO - Starting monitoring cycle
+2025-06-25 23:10:02,695 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:10:02,695 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:15:01,789 - INFO - Starting monitoring cycle
+2025-06-25 23:15:03,021 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:15:03,021 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:20:01,180 - INFO - Starting monitoring cycle
+2025-06-25 23:20:02,286 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:20:02,286 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:25:01,379 - INFO - Starting monitoring cycle
+2025-06-25 23:25:02,504 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:25:02,504 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:30:01,598 - INFO - Starting monitoring cycle
+2025-06-25 23:30:02,693 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:30:02,693 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:35:01,787 - INFO - Starting monitoring cycle
+2025-06-25 23:35:02,908 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:35:02,909 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:40:02,005 - INFO - Starting monitoring cycle
+2025-06-25 23:40:03,163 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:40:03,163 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:45:01,259 - INFO - Starting monitoring cycle
+2025-06-25 23:45:03,482 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:45:03,482 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:50:01,578 - INFO - Starting monitoring cycle
+2025-06-25 23:50:02,660 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:50:02,660 - INFO - Monitoring cycle completed successfully
+2025-06-25 23:55:01,749 - INFO - Starting monitoring cycle
+2025-06-25 23:55:02,989 - INFO - Cleaned up data older than 30 days
+2025-06-25 23:55:02,989 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:00:01,097 - INFO - Starting monitoring cycle
+2025-06-26 00:00:02,190 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:00:02,190 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:05:01,294 - INFO - Starting monitoring cycle
+2025-06-26 00:05:02,427 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:05:02,427 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:10:01,525 - INFO - Starting monitoring cycle
+2025-06-26 00:10:02,672 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:10:02,673 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:15:01,761 - INFO - Starting monitoring cycle
+2025-06-26 00:15:02,966 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:15:02,966 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:20:02,072 - INFO - Starting monitoring cycle
+2025-06-26 00:20:03,258 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:20:03,258 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:25:01,352 - INFO - Starting monitoring cycle
+2025-06-26 00:25:02,607 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:25:02,607 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:30:01,702 - INFO - Starting monitoring cycle
+2025-06-26 00:30:02,834 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:30:02,834 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:35:01,923 - INFO - Starting monitoring cycle
+2025-06-26 00:35:03,350 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:35:03,350 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:40:01,448 - INFO - Starting monitoring cycle
+2025-06-26 00:40:03,774 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:40:03,774 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:45:01,865 - INFO - Starting monitoring cycle
+2025-06-26 00:45:03,197 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:45:03,197 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:50:01,290 - INFO - Starting monitoring cycle
+2025-06-26 00:50:02,520 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:50:02,520 - INFO - Monitoring cycle completed successfully
+2025-06-26 00:55:01,620 - INFO - Starting monitoring cycle
+2025-06-26 00:55:02,864 - INFO - Cleaned up data older than 30 days
+2025-06-26 00:55:02,864 - INFO - Monitoring cycle completed successfully
+2025-06-26 01:00:01,969 - INFO - Starting monitoring cycle
+2025-06-26 01:00:03,148 - INFO - Cleaned up data older than 30 days
+2025-06-26 01:00:03,148 - INFO - Monitoring cycle completed successfully
+2025-06-26 01:05:01,380 - INFO - Starting monitoring cycle
+2025-06-26 01:05:02,780 - INFO - Cleaned up data older than 30 days
+2025-06-26 01:05:02,780 - INFO - Monitoring cycle completed successfully
+2025-06-26 01:10:01,881 - INFO - Starting monitoring cycle
+2025-06-26 01:10:03,044 - INFO - Cleaned up data older than 30 days
+2025-06-26 01:10:03,044 - INFO - Monitoring cycle completed successfully
+2025-06-26 01:15:01,138 - INFO - Starting monitoring cycle
+2025-06-26 01:15:02,245 - INFO - Cleaned up data older than 30 days
+2025-06-26 01:15:02,246 - INFO - Monitoring cycle completed successfully
+2025-06-26 01:20:01,367 - INFO - Starting monitoring cycle
+2025-06-26 01:20:02,934 - INFO - Cleaned up data older than 30 days
+2025-06-26 01:20:02,935 - INFO - Monitoring cycle completed successfully
+2025-06-26 01:25:02,049 - INFO - Starting monitoring cycle
+2025-06-26 01:25:03,346 - INFO - Cleaned up data older than 30 days
+2025-06-26 01:25:03,346 - INFO - Monitoring cycle completed successfully
+2025-06-26 01:30:01,446 - INFO - Starting monitoring cycle
+2025-06-26 01:30:02,540 - INFO - Cleaned up data older than 30 days
+2025-06-26 01:30:02,540 - INFO - Monitoring cycle completed successfully
+2025-06-26 01:35:01,637 - INFO - Starting monitoring cycle
+2025-06-26 01:35:02,890 - INFO - Cleaned up data older than 30 days
+2025-06-26 01:35:02,890 - INFO - Monitoring cycle completed successfully
+2025-06-26 01:40:02,001 - INFO - Starting monitoring cycle
+2025-06-26 01:40:03,256 - INFO - Cleaned up data older than 30 days
+2025-06-26 01:40:03,256 - INFO - Monitoring cycle completed successfully

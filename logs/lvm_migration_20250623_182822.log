@@ -1,609 +1,0 @@
-2025-06-23 18:28:22 - SECTION: LVM STORAGE MIGRATION STARTING
-2025-06-23 18:28:22 - Migration started with DRY_RUN=false, FORCE=false
-2025-06-23 18:28:22 - SECTION: CHECKING PREREQUISITES
-2025-06-23 18:28:22 - INFO: All storage volumes are properly mounted
-2025-06-23 18:28:22 - INFO: Available space - Projects: 112233608KB, Media: 194808504KB, Backups: 96793108KB
-2025-06-23 18:28:22 - SECTION: CALCULATING DATA SIZES
-2025-06-23 18:28:45 - INFO: Project directories:
-2025-06-23 18:28:45 - INFO:   Projects: 8053MB
-2025-06-23 18:28:45 - INFO:   dev: 171114MB
-2025-06-23 18:28:45 - INFO:   CascadeProjects: 18797MB
-2025-06-23 18:28:45 - INFO:   devops-testing: 6227MB
-2025-06-23 18:28:45 - INFO: Media directories:
-2025-06-23 18:28:45 - INFO:   Music: 0MB
-2025-06-23 18:28:45 - INFO:   Videos: 0MB
-2025-06-23 18:28:45 - INFO:   Pictures: 1MB
-2025-06-23 18:28:45 - INFO: Downloads: 21226MB
-2025-06-23 18:28:45 - SECTION: CREATING DIRECTORY STRUCTURE
-2025-06-23 18:28:45 - INFO: Directory structure created successfully
-2025-06-23 18:28:45 - SECTION: MIGRATING PROJECT DIRECTORIES
-2025-06-23 18:28:45 - INFO: Migrating /home/cbwinslow/CascadeProjects (19G) to /mnt/storage/projects/active/work
-sending incremental file list
-
-sent 3,492,948 bytes  received 11,916 bytes  1,001,389.71 bytes/sec
-total size is 19,415,449,861  speedup is 5,539.57
-2025-06-23 18:35:59 - ERROR: Migration verification failed for /home/cbwinslow/CascadeProjects
-2025-06-23 18:36:00 - INFO: Migrating /home/cbwinslow/devops-testing (6.1G) to /mnt/storage/projects/active/devops
-sending incremental file list
-
-sent 1,051,185 bytes  received 3,362 bytes  703,031.33 bytes/sec
-total size is 6,438,707,456  speedup is 6,105.66
-2025-06-23 18:39:03 - ERROR: Migration verification failed for /home/cbwinslow/devops-testing
-2025-06-23 18:39:06 - INFO: Migrating /home/cbwinslow/Projects (7.9G) to /mnt/storage/projects/active/personal
-sending incremental file list
-doc_assembler_web/
-doc_assembler_web/PROJECT_LOG.md
-          5,429 100%    0.00kB/s    0:00:00            5,429 100%    0.00kB/s    0:00:00 (xfr#1, ir-chk=1026/136382)
-doc_assembler_web/docker-compose.old.yml
-          1,903 100%    1.81MB/s    0:00:00            1,903 100%    1.81MB/s    0:00:00 (xfr#2, ir-chk=1019/136382)
-doc_assembler_web/docker-compose.yml
-          4,046 100%  987.79kB/s    0:00:00            4,046 100%  987.79kB/s    0:00:00 (xfr#3, ir-chk=1018/136382)
-doc_assembler_web/project_tasks.md
-          6,196 100%  864.40kB/s    0:00:00            6,196 100%  864.40kB/s    0:00:00 (xfr#4, ir-chk=1015/136382)
-doc_assembler_web/.git/
-doc_assembler_web/.git/COMMIT_EDITMSG
-             74 100%    1.64kB/s    0:00:00               74 100%    1.64kB/s    0:00:00 (xfr#5, ir-chk=1012/136394)
-doc_assembler_web/.git/index
-         26,067 100%  553.39kB/s    0:00:00           26,067 100%  553.39kB/s    0:00:00 (xfr#6, ir-chk=1006/136394)
-doc_assembler_web/.git/logs/HEAD
-          3,660 100%   74.46kB/s    0:00:00            3,660 100%   74.46kB/s    0:00:00 (xfr#7, ir-chk=1015/136424)
-doc_assembler_web/.git/logs/refs/heads/master
-          3,660 100%   71.48kB/s    0:00:00            3,660 100%   71.48kB/s    0:00:00 (xfr#8, ir-chk=1011/136424)
-doc_assembler_web/.git/logs/refs/remotes/origin/master
-          1,981 100%   37.20kB/s    0:00:00            1,981 100%   37.20kB/s    0:00:00 (xfr#9, ir-chk=1009/136424)
-doc_assembler_web/.git/objects/
-doc_assembler_web/.git/objects/02/
-doc_assembler_web/.git/objects/02/587ba1ac5b86236e46f2a251edd749f70f70e5
-          4,494 100%   76.99kB/s    0:00:00            4,494 100%   76.99kB/s    0:00:00 (xfr#10, ir-chk=1006/136632)
-doc_assembler_web/.git/objects/05/
-doc_assembler_web/.git/objects/05/49f9af0ec0e34155072265dd07c16d764f375c
-         11,884 100%  196.70kB/s    0:00:00           11,884 100%  196.70kB/s    0:00:00 (xfr#11, ir-chk=1002/136632)
-doc_assembler_web/.git/objects/09/
-doc_assembler_web/.git/objects/09/71167c641780adf53e78ddd63861ff1fb792a1
-          1,133 100%   18.44kB/s    0:00:00            1,133 100%   18.44kB/s    0:00:00 (xfr#12, ir-chk=1001/136638)
-doc_assembler_web/.git/objects/0a/
-doc_assembler_web/.git/objects/0a/8a11e13cc7abbaf3b270cc577bf78e3666d988
-            949 100%   14.95kB/s    0:00:00              949 100%   14.95kB/s    0:00:00 (xfr#13, ir-chk=1003/136642)
-doc_assembler_web/.git/objects/0d/
-doc_assembler_web/.git/objects/0d/72693cdbe221cae37d22e12155a0e1f13fd93c
-          3,251 100%   50.39kB/s    0:00:00            3,251 100%   50.39kB/s    0:00:00 (xfr#14, ir-chk=1002/136648)
-doc_assembler_web/.git/objects/15/
-doc_assembler_web/.git/objects/15/5dc9021b23a6e65c6d0943db457cbc9ff165bc
-            749 100%   10.92kB/s    0:00:00              749 100%   10.92kB/s    0:00:00 (xfr#15, ir-chk=1003/136664)
-doc_assembler_web/.git/objects/15/b74c32085ba07e6089590de9ed27b9b579f4cd
-             49 100%    0.66kB/s    0:00:00               49 100%    0.66kB/s    0:00:00 (xfr#16, ir-chk=1001/136664)
-doc_assembler_web/.git/objects/18/
-doc_assembler_web/.git/objects/18/69d1d752667fe82fdeed4420664bb2d80d23b4
-          3,838 100%   50.65kB/s    0:00:00            3,838 100%   50.65kB/s    0:00:00 (xfr#17, ir-chk=1005/136673)
-doc_assembler_web/.git/objects/1c/
-doc_assembler_web/.git/objects/1c/3758eb00741e25cce0bae5cd3e6dce93167456
-          1,876 100%   23.49kB/s    0:00:00            1,876 100%   23.49kB/s    0:00:00 (xfr#18, ir-chk=1230/136903)
-doc_assembler_web/.git/objects/22/
-doc_assembler_web/.git/objects/22/a0aff1e73f87d7b8abeb6e35be030d2f988084
-          2,258 100%   27.91kB/s    0:00:00            2,258 100%   27.91kB/s    0:00:00 (xfr#19, ir-chk=1220/136903)
-doc_assembler_web/.git/objects/23/
-doc_assembler_web/.git/objects/23/4fbec23e87903a7aff097f606823b145de5d3a
-             47 100%    0.56kB/s    0:00:00               47 100%    0.56kB/s    0:00:00 (xfr#20, ir-chk=1219/136903)
-doc_assembler_web/.git/objects/25/
-doc_assembler_web/.git/objects/25/0e7fbcd3a2f8843015cb7c8efc9b0adaab6fca
-            422 100%    4.85kB/s    0:00:00              422 100%    4.85kB/s    0:00:00 (xfr#21, ir-chk=1216/136903)
-doc_assembler_web/.git/objects/29/
-doc_assembler_web/.git/objects/29/efc11bbaf16fbd4e8f91045457c71ab423bb19
-         32,768   0%  363.64kB/s    0:00:19        7,017,324 100%   44.03MB/s    0:00:00 (xfr#22, ir-chk=1215/136903)
-doc_assembler_web/.git/objects/2c/
-doc_assembler_web/.git/objects/2c/0b8accb2f4960bcf76caad96b0b625d83c422f
-             54 100%    0.34kB/s    0:00:00               54 100%    0.34kB/s    0:00:00 (xfr#23, ir-chk=1213/136903)
-doc_assembler_web/.git/objects/2e/
-doc_assembler_web/.git/objects/2e/f64ccd9da7fd0d8dad3483ac4421a13459818c
-            660 100%    4.16kB/s    0:00:00              660 100%    4.16kB/s    0:00:00 (xfr#24, ir-chk=1210/136903)
-doc_assembler_web/.git/objects/30/
-doc_assembler_web/.git/objects/30/b30556327d8c195f80bb1fa64d3002b26f0020
-            125 100%    0.78kB/s    0:00:00              125 100%    0.78kB/s    0:00:00 (xfr#25, ir-chk=1209/136903)
-doc_assembler_web/.git/objects/32/
-doc_assembler_web/.git/objects/32/62e67cba7128fdcda4013e783f8b2b93caba39
-            966 100%    5.93kB/s    0:00:00              966 100%    5.93kB/s    0:00:00 (xfr#26, ir-chk=1205/136903)
-doc_assembler_web/.git/objects/38/
-doc_assembler_web/.git/objects/38/033dfc8bc693a158a6e725fdc58c21f2381442
-            140 100%    0.84kB/s    0:00:00              140 100%    0.84kB/s    0:00:00 (xfr#27, ir-chk=1202/136903)
-doc_assembler_web/.git/objects/38/6e27770f578b6d53dbd5ddf170d87442fbeb49
-            116 100%    0.69kB/s    0:00:00              116 100%    0.69kB/s    0:00:00 (xfr#28, ir-chk=1199/136903)
-doc_assembler_web/.git/objects/3b/
-doc_assembler_web/.git/objects/3b/78ff5286bdcca7489763b4c88221edeea31a22
-          1,345 100%    7.96kB/s    0:00:00            1,345 100%    7.96kB/s    0:00:00 (xfr#29, ir-chk=1197/136903)
-doc_assembler_web/.git/objects/3b/82c1b884645b1d09be1a986ed908c65e5d43b1
-             50 100%    0.29kB/s    0:00:00               50 100%    0.29kB/s    0:00:00 (xfr#30, ir-chk=1196/136903)
-doc_assembler_web/.git/objects/3c/
-doc_assembler_web/.git/objects/3c/a25f29176fb9c9ed30c5f3bf50b0d7edd9911e
-            185 100%    1.08kB/s    0:00:00              185 100%    1.08kB/s    0:00:00 (xfr#31, ir-chk=1193/136903)
-doc_assembler_web/.git/objects/3e/
-doc_assembler_web/.git/objects/3e/c8e31bc13eb07d5b8982a86531a1eb0746a744
-             69 100%    0.40kB/s    0:00:00               69 100%    0.40kB/s    0:00:00 (xfr#32, ir-chk=1190/136903)
-doc_assembler_web/.git/objects/42/
-doc_assembler_web/.git/objects/42/431bbeb0fdcf2cc8a422e7b98ff9c7dda5eecb
-            793 100%    4.50kB/s    0:00:00              793 100%    4.50kB/s    0:00:00 (xfr#33, ir-chk=1187/136903)
-doc_assembler_web/.git/objects/43/
-doc_assembler_web/.git/objects/43/7954efcbf738b9464d4e763bd2edec50efae68
-            911 100%    5.14kB/s    0:00:00              911 100%    5.14kB/s    0:00:00 (xfr#34, ir-chk=1184/136903)
-doc_assembler_web/.git/objects/43/c8729f3cfd674db9c7b45bec36ba4d261d3c7b
-            188 100%    1.06kB/s    0:00:00              188 100%    1.06kB/s    0:00:00 (xfr#35, ir-chk=1182/136903)
-doc_assembler_web/.git/objects/45/
-doc_assembler_web/.git/objects/45/5f05c3b2db61d291e31ccbc39b7d86b6f7853e
-            281 100%    1.57kB/s    0:00:00              281 100%    1.57kB/s    0:00:00 (xfr#36, ir-chk=1181/136903)
-doc_assembler_web/.git/objects/47/
-doc_assembler_web/.git/objects/47/4ae54580452cdb116f61c7a13b41db45c0cded
-          2,516 100%   13.88kB/s    0:00:00            2,516 100%   13.80kB/s    0:00:00 (xfr#37, ir-chk=1177/136903)
-doc_assembler_web/.git/objects/47/dfaae35a6ab5e6de35558da0ce8cc341c33832
-          2,349 100%   12.74kB/s    0:00:00            2,349 100%   12.74kB/s    0:00:00 (xfr#38, ir-chk=1175/136903)
-doc_assembler_web/.git/objects/49/
-doc_assembler_web/.git/objects/49/31dc08d123dc1c88137a35583886afdfaedb35
-            216 100%    1.16kB/s    0:00:00              216 100%    1.16kB/s    0:00:00 (xfr#39, ir-chk=1172/136903)
-doc_assembler_web/.git/objects/4b/
-doc_assembler_web/.git/objects/4b/edb958cc2b220a283a85dddeb2ce6d67970230
-            116 100%    0.62kB/s    0:00:00              116 100%    0.62kB/s    0:00:00 (xfr#40, ir-chk=1170/136903)
-doc_assembler_web/.git/objects/4d/
-doc_assembler_web/.git/objects/4d/b2149985e0b4ded9a7f988069d5f2d516952a3
-            908 100%    4.79kB/s    0:00:00              908 100%    4.79kB/s    0:00:00 (xfr#41, ir-chk=1166/136903)
-doc_assembler_web/.git/objects/4d/f41e0db2d8f9846a0d03c16c1025554c2d59d2
-             45 100%    0.24kB/s    0:00:00               45 100%    0.24kB/s    0:00:00 (xfr#42, ir-chk=1165/136903)
-doc_assembler_web/.git/objects/4e/
-doc_assembler_web/.git/objects/4e/0e0fbe186a5c90a65a85c6958fdfbcba19dd35
-             80 100%    0.42kB/s    0:00:00               80 100%    0.42kB/s    0:00:00 (xfr#43, ir-chk=1164/136903)
-doc_assembler_web/.git/objects/50/
-doc_assembler_web/.git/objects/50/7be5f66cf185fa3b418fe1a1a7d4ad33363a71
-            949 100%    4.96kB/s    0:00:00              949 100%    4.96kB/s    0:00:00 (xfr#44, ir-chk=1161/136903)
-doc_assembler_web/.git/objects/50/99b77dbccf9e63a6014b469574493ed88c09f8
-             45 100%    0.23kB/s    0:00:00               45 100%    0.23kB/s    0:00:00 (xfr#45, ir-chk=1160/136903)
-doc_assembler_web/.git/objects/53/
-doc_assembler_web/.git/objects/53/05164178525eaadc834e803443ad39a419b46c
-          1,375 100%    7.07kB/s    0:00:00            1,375 100%    7.07kB/s    0:00:00 (xfr#46, ir-chk=1156/136903)
-doc_assembler_web/.git/objects/53/424d1c17cac1fc80cd1fb3a39ed4380356b103
-            209 100%    1.07kB/s    0:00:00              209 100%    1.07kB/s    0:00:00 (xfr#47, ir-chk=1155/136903)
-doc_assembler_web/.git/objects/54/
-doc_assembler_web/.git/objects/54/4ce58abd6fd804b80658399058e9cd809a6890
-             57 100%    0.29kB/s    0:00:00               57 100%    0.29kB/s    0:00:00 (xfr#48, ir-chk=1152/136903)
-doc_assembler_web/.git/objects/54/53bc8d90b5d2faab4c40975aa69808eb36f5ca
-            208 100%    1.06kB/s    0:00:00              208 100%    1.06kB/s    0:00:00 (xfr#49, ir-chk=1151/136903)
-doc_assembler_web/.git/objects/56/
-doc_assembler_web/.git/objects/56/6c4ea36135fa2e1cd678154894f34d2a6c4cd4
-            911 100%    4.63kB/s    0:00:00              911 100%    4.63kB/s    0:00:00 (xfr#50, ir-chk=1146/136903)
-doc_assembler_web/.git/objects/56/b7b17b263187dd696b3b6d01c0d6159cb36709
-            657 100%    3.31kB/s    0:00:00              657 100%    3.31kB/s    0:00:00 (xfr#51, ir-chk=1144/136903)
-doc_assembler_web/.git/objects/59/
-doc_assembler_web/.git/objects/59/ee60d662d73a254ddd00d4254bfef75ea3b094
-          3,421 100%   17.13kB/s    0:00:00            3,421 100%   17.13kB/s    0:00:00 (xfr#52, ir-chk=1138/136903)
-doc_assembler_web/.git/objects/5a/
-doc_assembler_web/.git/objects/5a/47b564bb3384eee00d417edbbe46d3105e7e48
-             50 100%    0.25kB/s    0:00:00               50 100%    0.25kB/s    0:00:00 (xfr#53, ir-chk=1137/136903)
-doc_assembler_web/.git/objects/5c/468a422e76144c043121341351f41019657c3d
-            752 100%    3.73kB/s    0:00:00              752 100%    3.73kB/s    0:00:00 (xfr#54, ir-chk=1134/136903)
-doc_assembler_web/.git/objects/5d/
-doc_assembler_web/.git/objects/5d/6316a51a0fd878f3cdad2946002a0bf72fc206
-          1,036 100%    5.14kB/s    0:00:00            1,036 100%    5.14kB/s    0:00:00 (xfr#55, ir-chk=1133/136903)
-doc_assembler_web/.git/objects/5e/
-doc_assembler_web/.git/objects/5e/297a7ea641beb260faeef49820770682575190
-          3,951 100%   19.49kB/s    0:00:00            3,951 100%   19.29kB/s    0:00:00 (xfr#56, ir-chk=1132/136903)
-doc_assembler_web/.git/objects/5f/
-doc_assembler_web/.git/objects/5f/becadbd58efc8e0a79f8a5be8d182320ff47d8
-          3,920 100%   18.95kB/s    0:00:00            3,920 100%   18.95kB/s    0:00:00 (xfr#57, ir-chk=1128/136903)
-doc_assembler_web/.git/objects/64/
-doc_assembler_web/.git/objects/64/3de403434094a3c36c27cf7375f4532dc89324
-            208 100%    1.01kB/s    0:00:00              208 100%    1.01kB/s    0:00:00 (xfr#58, ir-chk=1124/136903)
-doc_assembler_web/.git/objects/65/
-doc_assembler_web/.git/objects/65/a30b45200188eaca237c4d7772ad105aa8dd4d
-          3,130 100%   15.13kB/s    0:00:00            3,130 100%   15.13kB/s    0:00:00 (xfr#59, ir-chk=1121/136903)
-doc_assembler_web/.git/objects/66/
-doc_assembler_web/.git/objects/66/9ed568a0c03935b6d25491b536caa2dc88d7a9
-            512 100%    2.46kB/s    0:00:00              512 100%    2.46kB/s    0:00:00 (xfr#60, ir-chk=1115/136903)
-doc_assembler_web/.git/objects/68/
-doc_assembler_web/.git/objects/68/d830176c6fc88b5614d05dedc12bf107aa8d76
-          1,379 100%    6.63kB/s    0:00:00            1,379 100%    6.63kB/s    0:00:00 (xfr#61, ir-chk=1111/136903)
-doc_assembler_web/.git/objects/6a/
-doc_assembler_web/.git/objects/6a/8fb0197bf134d9a61d21ad5a5cc23be78ed84c
-          1,138 100%    5.47kB/s    0:00:00            1,138 100%    5.47kB/s    0:00:00 (xfr#62, ir-chk=1110/136903)
-doc_assembler_web/.git/objects/71/
-doc_assembler_web/.git/objects/71/b28d9dbc78489626ff4108c35e7f64ad577875
-          2,158 100%   10.28kB/s    0:00:00            2,158 100%   10.28kB/s    0:00:00 (xfr#63, ir-chk=1100/136903)
-doc_assembler_web/.git/objects/72/
-doc_assembler_web/.git/objects/72/acbc597d2562efb509c682a70209fc666f4a42
-            360 100%    1.71kB/s    0:00:00              360 100%    1.71kB/s    0:00:00 (xfr#64, ir-chk=1098/136903)
-doc_assembler_web/.git/objects/73/
-doc_assembler_web/.git/objects/73/45704d0be09ee2d771c80acf64d17c283d3b26
-             48 100%    0.23kB/s    0:00:00               48 100%    0.23kB/s    0:00:00 (xfr#65, ir-chk=1097/136903)
-doc_assembler_web/.git/objects/74/
-doc_assembler_web/.git/objects/74/1c23fe362e3b3fe0c78c755633ff1d2fddc448
-          1,411 100%    6.66kB/s    0:00:00            1,411 100%    6.66kB/s    0:00:00 (xfr#66, ir-chk=1095/136903)
-doc_assembler_web/.git/objects/75/
-doc_assembler_web/.git/objects/75/f4bf7a821f42934bde2d8fad699ac01fde1e1b
-             55 100%    0.26kB/s    0:00:00               55 100%    0.26kB/s    0:00:00 (xfr#67, ir-chk=1093/136903)
-doc_assembler_web/.git/objects/77/
-doc_assembler_web/.git/objects/77/a4a04808abaf3aa8a896a0e87527173610e796
-          3,606 100%   16.85kB/s    0:00:00            3,606 100%   16.85kB/s    0:00:00 (xfr#68, ir-chk=1090/136903)
-doc_assembler_web/.git/objects/78/
-doc_assembler_web/.git/objects/78/5378701be94e5009a9dcada5a55976407bc7fe
-          3,756 100%   17.47kB/s    0:00:00            3,756 100%   17.47kB/s    0:00:00 (xfr#69, ir-chk=1089/136903)
-doc_assembler_web/.git/objects/79/
-doc_assembler_web/.git/objects/79/cd13c2f2ad0bbc592c52b38889c3de1eec7dc1
-          3,770 100%   17.45kB/s    0:00:00            3,770 100%   17.45kB/s    0:00:00 (xfr#70, ir-chk=1088/136903)
-doc_assembler_web/.git/objects/79/d7ea47d57ff6cf2264175153d04fe8592c2462
-             79 100%    0.37kB/s    0:00:00               79 100%    0.37kB/s    0:00:00 (xfr#71, ir-chk=1087/136903)
-doc_assembler_web/.git/objects/7b/
-doc_assembler_web/.git/objects/7b/d35018c878e5274d327f98e86b1d5efd60524e
-             63 100%    0.29kB/s    0:00:00               63 100%    0.29kB/s    0:00:00 (xfr#72, ir-chk=1085/136903)
-doc_assembler_web/.git/objects/7c/
-doc_assembler_web/.git/objects/7c/6281a9ca939d7533cd2a99f29347dea88f9f00
-            179 100%    0.82kB/s    0:00:00              179 100%    0.82kB/s    0:00:00 (xfr#73, ir-chk=1083/136903)
-doc_assembler_web/.git/objects/7c/f79fba78766ccc7199beabcf33ae557cd1ea4a
-            749 100%    3.39kB/s    0:00:00              749 100%    3.39kB/s    0:00:00 (xfr#74, ir-chk=1081/136903)
-doc_assembler_web/.git/objects/7d/
-doc_assembler_web/.git/objects/7d/de3055eb00014231d3a2c5216ef59ed3c95e3a
-          2,036 100%    9.08kB/s    0:00:00            2,036 100%    9.08kB/s    0:00:00 (xfr#75, ir-chk=1079/136903)
-doc_assembler_web/.git/objects/7e/
-doc_assembler_web/.git/objects/7e/349971c6584fc09cb56513ec33fe38220be190
-             94 100%    0.42kB/s    0:00:00               94 100%    0.42kB/s    0:00:00 (xfr#76, ir-chk=1078/136903)
-doc_assembler_web/.git/objects/80/
-doc_assembler_web/.git/objects/80/f97dc5117e4ef229732925155cbcd6fde5c7d0
-             51 100%    0.23kB/s    0:00:00               51 100%    0.23kB/s    0:00:00 (xfr#77, ir-chk=1076/136903)
-doc_assembler_web/.git/objects/81/
-doc_assembler_web/.git/objects/81/97427cee835a4b75d9ee5addfd052aec5796f5
-         32,768   0%  143.50kB/s    0:05:34       47,991,016 100%   66.72MB/s    0:00:00 (xfr#78, ir-chk=1074/136903)
-doc_assembler_web/.git/objects/82/
-doc_assembler_web/.git/objects/82/2304c69ce10a707754d0a7fa788b84af480574
-             52 100%    0.07kB/s    0:00:00               52 100%    0.07kB/s    0:00:00 (xfr#79, ir-chk=1073/136903)
-doc_assembler_web/.git/objects/82/73ca4f0f217c0c2eaf8c674aec9ff3ff3c7eec
-            134 100%    0.19kB/s    0:00:00              134 100%    0.19kB/s    0:00:00 (xfr#80, ir-chk=1072/136903)
-doc_assembler_web/.git/objects/83/
-doc_assembler_web/.git/objects/83/e0cb849c5731373f34a1bd4122cf780644ed7e
-            164 100%    0.23kB/s    0:00:00              164 100%    0.23kB/s    0:00:00 (xfr#81, ir-chk=1068/136903)
-doc_assembler_web/.git/objects/88/
-doc_assembler_web/.git/objects/88/bea791eed8870f6acec8d87c2eb120e1c8cce1
-            122 100%    0.17kB/s    0:00:00              122 100%    0.17kB/s    0:00:00 (xfr#82, ir-chk=1064/136903)
-doc_assembler_web/.git/objects/89/
-doc_assembler_web/.git/objects/89/fd533eb1ea0b55ba6300bdf0fb8482884bfd34
-            874 100%    1.23kB/s    0:00:00              874 100%    1.23kB/s    0:00:00 (xfr#83, ir-chk=1061/136903)
-doc_assembler_web/.git/objects/8a/
-doc_assembler_web/.git/objects/8a/a7a699a2b0a50533088293ce9b60d1da9cbc48
-            148 100%    0.21kB/s    0:00:00              148 100%    0.21kB/s    0:00:00 (xfr#84, ir-chk=1060/136903)
-doc_assembler_web/.git/objects/8d/
-doc_assembler_web/.git/objects/8d/6f15e50ec7c5ef75cd7274566261c4131313f7
-          1,112 100%    1.55kB/s    0:00:00            1,112 100%    1.55kB/s    0:00:00 (xfr#85, ir-chk=1057/136903)
-doc_assembler_web/.git/objects/8d/80bbff547918ba9f609e304e5c7e8864bb1332
-            136 100%    0.19kB/s    0:00:00              136 100%    0.19kB/s    0:00:00 (xfr#86, ir-chk=1056/136903)
-doc_assembler_web/.git/objects/93/
-doc_assembler_web/.git/objects/93/75d3dbb75d0bc110b9c21e9bd9f92abd219f0d
-          2,382 100%    3.32kB/s    0:00:00            2,382 100%    3.32kB/s    0:00:00 (xfr#87, ir-chk=1049/136903)
-doc_assembler_web/.git/objects/9f/
-doc_assembler_web/.git/objects/9f/849ee59cbdeb3764e2fd6eb08c8132b673c6d1
-          1,813 100%    2.52kB/s    0:00:00            1,813 100%    2.52kB/s    0:00:00 (xfr#88, ir-chk=1037/136903)
-doc_assembler_web/.git/objects/a0/
-doc_assembler_web/.git/objects/a0/b7b3713095770f2bdef21abcef898e46354bd8
-         32,768  80%   45.39kB/s    0:00:00           40,655 100%   56.32kB/s    0:00:00 (xfr#89, ir-chk=1035/136903)
-doc_assembler_web/.git/objects/a1/
-doc_assembler_web/.git/objects/a1/1143bb02c83b671de22f86d6c1f35d75fd52b1
-            875 100%    1.21kB/s    0:00:00              875 100%    1.21kB/s    0:00:00 (xfr#90, ir-chk=1033/136903)
-doc_assembler_web/.git/objects/a6/
-doc_assembler_web/.git/objects/a6/12ad9813b006ce81d1ee438dd784da99a54007
-          6,140 100%    8.48kB/s    0:00:00            6,140 100%    8.48kB/s    0:00:00 (xfr#91, ir-chk=1022/136903)
-doc_assembler_web/.git/objects/a8/
-doc_assembler_web/.git/objects/a8/5ea5236949fd4bc40d36f4c2495fd5c9efdd3d
-            380 100%    0.52kB/s    0:00:00              380 100%    0.52kB/s    0:00:00 (xfr#92, ir-chk=1017/136903)
-doc_assembler_web/.git/objects/a8/b49f3e472d7e0244211855ebad05f38cd622a9
-          3,504 100%    4.84kB/s    0:00:00            3,504 100%    4.84kB/s    0:00:00 (xfr#93, ir-chk=1016/136903)
-doc_assembler_web/.git/objects/a9/
-doc_assembler_web/.git/objects/a9/ec2b4394da6fe9354ca93845e3e455401205ca
-            614 100%    0.85kB/s    0:00:00              614 100%    0.85kB/s    0:00:00 (xfr#94, ir-chk=1013/136903)
-doc_assembler_web/.git/objects/ab/
-doc_assembler_web/.git/objects/ab/9eb450c74820ea29dc4266f83a98d69e788d31
-            387 100%    0.53kB/s    0:00:00              387 100%    0.53kB/s    0:00:00 (xfr#95, ir-chk=1011/136903)
-doc_assembler_web/.git/objects/ac/
-doc_assembler_web/.git/objects/ac/948177dbbac52e9cee399729ca4e09ace1c36d
-          3,615 100%    4.98kB/s    0:00:00            3,615 100%    4.98kB/s    0:00:00 (xfr#96, ir-chk=1009/136903)
-doc_assembler_web/.git/objects/af/
-doc_assembler_web/.git/objects/af/cab9ddb0899a55dbcdf9ffd53f22a9084c2832
-             52 100%    0.07kB/s    0:00:00               52 100%    0.07kB/s    0:00:00 (xfr#97, ir-chk=1007/136903)
-doc_assembler_web/.git/objects/b1/
-doc_assembler_web/.git/objects/b1/602054125ed773f5c95bbc327c48839c880e7a
-             54 100%    0.07kB/s    0:00:00               54 100%    0.07kB/s    0:00:00 (xfr#98, ir-chk=1004/136903)
-doc_assembler_web/.git/objects/b1/703cfab821c0ab42c83bdd718c1fcfd7280e0a
-          2,254 100%    3.09kB/s    0:00:00            2,254 100%    3.09kB/s    0:00:00 (xfr#99, ir-chk=1002/136903)
-doc_assembler_web/.git/objects/b3/
-doc_assembler_web/.git/objects/b3/0ca91626ef92502974ce7aced48708e8319ee3
-             63 100%    0.09kB/s    0:00:00               63 100%    0.09kB/s    0:00:00 (xfr#100, ir-chk=1008/136910)
-doc_assembler_web/.git/objects/b5/
-doc_assembler_web/.git/objects/b5/2491665ad10fdd8d299efb143110b596c1472b
-          2,786 100%    3.80kB/s    0:00:00            2,786 100%    3.80kB/s    0:00:00 (xfr#101, ir-chk=1003/136910)
-doc_assembler_web/.git/objects/b6/
-doc_assembler_web/.git/objects/b6/f3703e103a119f92a918f6e5c2e531231af053
-            441 100%    0.60kB/s    0:00:00              441 100%    0.60kB/s    0:00:00 (xfr#102, ir-chk=1000/136910)
-doc_assembler_web/.git/objects/b9/
-doc_assembler_web/.git/objects/b9/ac071eb6387e85c6e4d5df995839696db0e513
-          6,169 100%    8.38kB/s    0:00:00            6,169 100%    8.38kB/s    0:00:00 (xfr#103, ir-chk=1004/136918)
-doc_assembler_web/.git/objects/bc/
-doc_assembler_web/.git/objects/bc/17a58fb0f434251714aca03f7f4cb604f4bdbd
-             53 100%    0.07kB/s    0:00:00               53 100%    0.07kB/s    0:00:00 (xfr#104, ir-chk=1000/136918)
-doc_assembler_web/.git/objects/bf/
-doc_assembler_web/.git/objects/bf/5d04efc12e9497fdb9d5f8bba095a324ae3d80
-          2,554 100%    3.46kB/s    0:00:00            2,554 100%    3.46kB/s    0:00:00 (xfr#105, ir-chk=1002/136924)
-doc_assembler_web/.git/objects/c4/
-doc_assembler_web/.git/objects/c4/d2a11f0b81ddf8009e7ea9ad781d0e59379229
-            123 100%    0.17kB/s    0:00:00              123 100%    0.17kB/s    0:00:00 (xfr#106, ir-chk=1001/136931)
-doc_assembler_web/.git/objects/c5/
-doc_assembler_web/.git/objects/c5/7f54ae606670bacc647500ebfa6fe796b83e08
-            284 100%    0.38kB/s    0:00:00              284 100%    0.38kB/s    0:00:00 (xfr#107, ir-chk=1000/136931)
-doc_assembler_web/.git/objects/c6/
-doc_assembler_web/.git/objects/c6/9ca2ec548ac7d83bf895f61955a05e555a7c30
-          2,638 100%    3.54kB/s    0:00:00            2,638 100%    3.54kB/s    0:00:00 (xfr#108, ir-chk=1115/137047)
-doc_assembler_web/.git/objects/c8/
-doc_assembler_web/.git/objects/c8/9e9eba725d67c818d5192231ab3dd4d229506d
-          1,472 100%    1.97kB/s    0:00:00            1,472 100%    1.97kB/s    0:00:00 (xfr#109, ir-chk=1110/137047)
-doc_assembler_web/.git/objects/cb/
-doc_assembler_web/.git/objects/cb/9857c8ecfebc522a010ddfe9f4eea0db086768
-            162 100%    0.22kB/s    0:00:00              162 100%    0.22kB/s    0:00:00 (xfr#110, ir-chk=1103/137047)
-doc_assembler_web/.git/objects/cc/
-doc_assembler_web/.git/objects/cc/63a0ae26096214585870ef0bc36367254cce41
-            121 100%    0.16kB/s    0:00:00              121 100%    0.16kB/s    0:00:00 (xfr#111, ir-chk=1102/137047)
-doc_assembler_web/.git/objects/cf/
-doc_assembler_web/.git/objects/cf/a22181e11dc1cadc09b0f1949376cb973c4279
-            121 100%    0.16kB/s    0:00:00              121 100%    0.16kB/s    0:00:00 (xfr#112, ir-chk=1098/137047)
-doc_assembler_web/.git/objects/d1/
-doc_assembler_web/.git/objects/d1/cc5f7bc107337eb5cb4529441a52e649693524
-          1,355 100%    1.79kB/s    0:00:00            1,355 100%    1.79kB/s    0:00:00 (xfr#113, ir-chk=1096/137047)
-doc_assembler_web/.git/objects/d5/
-doc_assembler_web/.git/objects/d5/0fe6b74e70c1f5b26c7556ea28f46373880f87
-          1,099 100%    1.45kB/s    0:00:00            1,099 100%    1.45kB/s    0:00:00 (xfr#114, ir-chk=1091/137047)
-doc_assembler_web/.git/objects/df/
-doc_assembler_web/.git/objects/df/76e30429c020150360764f9955ee479858fcb6
-             58 100%    0.08kB/s    0:00:00               58 100%    0.08kB/s    0:00:00 (xfr#115, ir-chk=1083/137047)
-doc_assembler_web/.git/objects/e1/
-doc_assembler_web/.git/objects/e1/e2e8eb6bee9b1610868178b48e913d6913483f
-            150 100%    0.20kB/s    0:00:00              150 100%    0.20kB/s    0:00:00 (xfr#116, ir-chk=1080/137047)
-doc_assembler_web/.git/objects/e2/
-doc_assembler_web/.git/objects/e2/e3e635a3ec2c9db67784d4274eba80dd1607c8
-             57 100%    0.07kB/s    0:00:00               57 100%    0.07kB/s    0:00:00 (xfr#117, ir-chk=1078/137047)
-doc_assembler_web/.git/objects/e3/
-doc_assembler_web/.git/objects/e3/3f504c73025d5702de345c21f02ce7c508b354
-          2,092 100%    2.72kB/s    0:00:00            2,092 100%    2.72kB/s    0:00:00 (xfr#118, ir-chk=1077/137047)
-doc_assembler_web/.git/objects/e4/
-doc_assembler_web/.git/objects/e4/9b2429b0e57235f94267ac9306def041ada761
-          2,310 100%    3.00kB/s    0:00:00            2,310 100%    3.00kB/s    0:00:00 (xfr#119, ir-chk=1076/137047)
-doc_assembler_web/.git/objects/e5/
-doc_assembler_web/.git/objects/e5/1c1bfde5ce6c52612d1fbbf547da00c398668e
-             79 100%    0.10kB/s    0:00:00               79 100%    0.10kB/s    0:00:00 (xfr#120, ir-chk=1074/137047)
-doc_assembler_web/.git/objects/e7/
-doc_assembler_web/.git/objects/e7/f49b5b885bdf525a704bdc4bfd91884264c4d4
-         32,768  58%   42.33kB/s    0:00:00           55,908 100%   72.22kB/s    0:00:00 (xfr#121, ir-chk=1069/137047)
-doc_assembler_web/.git/objects/ea/
-doc_assembler_web/.git/objects/ea/26ccf97cbacceab6c62671f6e3d88c2e09ca52
-          3,250 100%    4.18kB/s    0:00:00            3,250 100%    4.18kB/s    0:00:00 (xfr#122, ir-chk=1066/137047)
-doc_assembler_web/.git/objects/ea/2ff01e7efabe57bf341304d6669bd0444df7a5
-          5,030 100%    6.45kB/s    0:00:00            5,030 100%    6.45kB/s    0:00:00 (xfr#123, ir-chk=1065/137047)
-doc_assembler_web/.git/objects/ec/
-doc_assembler_web/.git/objects/ec/b5eaff4610fff4937b8f3e8db80c44aab5658e
-          2,607 100%    3.34kB/s    0:00:00            2,607 100%    3.34kB/s    0:00:00 (xfr#124, ir-chk=1063/137047)
-doc_assembler_web/.git/objects/ee/
-doc_assembler_web/.git/objects/ee/4efbafd862ba3ebd1c2b9af72e678431e12526
-         32,768   0%   41.67kB/s    0:05:43       14,343,692 100%   14.44MB/s    0:00:00 (xfr#125, ir-chk=1061/137047)
-doc_assembler_web/.git/objects/f1/
-doc_assembler_web/.git/objects/f1/8274b3107a4844d47b44f16093323781f6a823
-             54 100%    0.06kB/s    0:00:00               54 100%    0.06kB/s    0:00:00 (xfr#126, ir-chk=1057/137047)
-doc_assembler_web/.git/objects/f3/
-doc_assembler_web/.git/objects/f3/2a9d0a67459dae87a18fb40d6ce684b38d50dc
-             53 100%    0.05kB/s    0:00:00               53 100%    0.05kB/s    0:00:00 (xfr#127, ir-chk=1052/137047)
-doc_assembler_web/.git/objects/f3/793d8c8d0330c15aac34fb937cccc2164dff45
-          1,118 100%    1.13kB/s    0:00:00            1,118 100%    1.13kB/s    0:00:00 (xfr#128, ir-chk=1049/137047)
-doc_assembler_web/.git/objects/f7/
-doc_assembler_web/.git/objects/f7/bde72c28abb695e2ddb9f312fc0db1b0fd5f98
-          1,911 100%    1.94kB/s    0:00:00            1,911 100%    1.94kB/s    0:00:00 (xfr#129, ir-chk=1045/137047)
-doc_assembler_web/.git/objects/f8/
-doc_assembler_web/.git/objects/f8/27fc22af169d9a74cc284ced4b6380ba41a326
-             85 100%    0.09kB/s    0:00:00               85 100%    0.09kB/s    0:00:00 (xfr#130, ir-chk=1044/137047)
-doc_assembler_web/.git/objects/f8/2a7b4ccfe179f374373021e4543b4502a00554
-          1,151 100%    1.16kB/s    0:00:00            1,151 100%    1.16kB/s    0:00:00 (xfr#131, ir-chk=1042/137047)
-doc_assembler_web/.git/objects/f9/
-doc_assembler_web/.git/objects/f9/bf7e94745f78d42e49690245899613e0b574fa
-          1,100 100%    1.11kB/s    0:00:00            1,100 100%    1.11kB/s    0:00:00 (xfr#132, ir-chk=1040/137047)
-doc_assembler_web/.git/objects/fa/
-doc_assembler_web/.git/objects/fa/0cb7566cc935e34a304e90e4f3347938e967bd
-             50 100%    0.05kB/s    0:00:00               50 100%    0.05kB/s    0:00:00 (xfr#133, ir-chk=1038/137047)
-doc_assembler_web/.git/objects/fc/
-doc_assembler_web/.git/objects/fc/3f56f71a1d282b6e959c8e873e7c4a0f415b38
-             54 100%    0.05kB/s    0:00:00               54 100%    0.05kB/s    0:00:00 (xfr#134, ir-chk=1036/137047)
-doc_assembler_web/.git/objects/ff/
-doc_assembler_web/.git/objects/ff/1282f1fbc6f1c10a89596f69fce9364ca57194
-          1,012 100%    1.01kB/s    0:00:00            1,012 100%    1.01kB/s    0:00:00 (xfr#135, ir-chk=1034/137047)
-doc_assembler_web/.git/refs/heads/
-doc_assembler_web/.git/refs/heads/master
-             41 100%    0.04kB/s    0:00:00               41 100%    0.04kB/s    0:00:00 (xfr#136, ir-chk=1030/137047)
-doc_assembler_web/.git/refs/remotes/origin/
-doc_assembler_web/.git/refs/remotes/origin/master
-             41 100%    0.04kB/s    0:00:00               41 100%    0.04kB/s    0:00:00 (xfr#137, ir-chk=1028/137047)
-doc_assembler_web/.github/workflows/
-doc_assembler_web/.github/workflows/deploy.yml
-         12,056 100%   11.92kB/s    0:00:00           12,056 100%   11.92kB/s    0:00:00 (xfr#138, ir-chk=1018/137047)
-doc_assembler_web/apps/backend/src/middleware/
-doc_assembler_web/apps/backend/src/middleware/errorHandler.ts
-          5,994 100%    5.88kB/s    0:00:00            5,994 100%    5.88kB/s    0:00:00 (xfr#139, ir-chk=1108/137163)
-doc_assembler_web/apps/backend/src/middleware/rateLimiter.ts
-          4,634 100%    4.53kB/s    0:00:00            4,634 100%    4.53kB/s    0:00:01 (xfr#140, ir-chk=1107/137163)
-doc_assembler_web/apps/backend/src/scripts/
-doc_assembler_web/apps/backend/src/scripts/ai-document-processor.ts
-         16,668 100%   16.28kB/s    0:00:00           16,668 100%   16.28kB/s    0:00:01 (xfr#141, ir-chk=1106/137163)
-doc_assembler_web/apps/backend/src/services/
-doc_assembler_web/apps/backend/src/services/documentProcessor.ts
-         15,189 100%   14.79kB/s    0:00:00           15,189 100%   14.79kB/s    0:00:01 (xfr#142, ir-chk=1105/137163)
-doc_assembler_web/apps/backend/src/services/emailService.ts
-         14,131 100%   13.70kB/s    0:00:00           14,131 100%   13.70kB/s    0:00:01 (xfr#143, ir-chk=1104/137163)
-doc_assembler_web/apps/backend/src/services/queueService.ts
-         14,239 100%   13.77kB/s    0:00:00           14,239 100%   13.77kB/s    0:00:01 (xfr#144, ir-chk=1103/137163)
-doc_assembler_web/apps/backend/src/services/vectorService.ts
-         14,037 100%   13.51kB/s    0:00:00           14,037 100%   13.51kB/s    0:00:01 (xfr#145, ir-chk=1102/137163)
-doc_assembler_web/apps/backend/src/utils/
-doc_assembler_web/apps/backend/src/utils/logger.ts
-          7,389 100%    7.07kB/s    0:00:00            7,389 100%    7.07kB/s    0:00:01 (xfr#146, ir-chk=1101/137163)
-doc_assembler_web/apps/frontend/src/
-doc_assembler_web/apps/frontend/src/App.tsx
-          2,415 100%    2.30kB/s    0:00:00            2,415 100%    2.30kB/s    0:00:01 (xfr#147, ir-chk=1085/137163)
-doc_assembler_web/apps/frontend/src/main.tsx
-            203 100%    0.19kB/s    0:00:00              203 100%    0.19kB/s    0:00:01 (xfr#148, ir-chk=1083/137163)
-doc_assembler_web/apps/frontend/src/components/
-doc_assembler_web/apps/frontend/src/components/auth/
-doc_assembler_web/apps/frontend/src/components/auth/LoginForm.tsx
-          5,342 100%    5.05kB/s    0:00:00            5,342 100%    5.05kB/s    0:00:01 (xfr#149, ir-chk=1067/137163)
-doc_assembler_web/apps/frontend/src/components/dashboard/
-doc_assembler_web/apps/frontend/src/components/documents/
-doc_assembler_web/apps/frontend/src/components/documents/DocumentUpload.tsx
-         12,610 100%   11.86kB/s    0:00:00           12,610 100%   11.86kB/s    0:00:01 (xfr#150, ir-chk=1066/137163)
-doc_assembler_web/apps/frontend/src/components/layout/
-doc_assembler_web/apps/frontend/src/components/layout/Layout.tsx
-          5,937 100%    5.56kB/s    0:00:00            5,937 100%    5.56kB/s    0:00:01 (xfr#151, ir-chk=1065/137163)
-doc_assembler_web/apps/frontend/src/components/ui/
-doc_assembler_web/apps/frontend/src/components/ui/Button.tsx
-          2,075 100%    1.94kB/s    0:00:00            2,075 100%    1.94kB/s    0:00:01 (xfr#152, ir-chk=1064/137163)
-doc_assembler_web/apps/frontend/src/components/ui/Input.tsx
-          1,080 100%    1.01kB/s    0:00:00            1,080 100%    1.01kB/s    0:00:01 (xfr#153, ir-chk=1063/137163)
-doc_assembler_web/apps/frontend/src/components/ui/Modal.tsx
-          2,691 100%    2.49kB/s    0:00:00            2,691 100%    2.49kB/s    0:00:01 (xfr#154, ir-chk=1062/137163)
-doc_assembler_web/apps/frontend/src/components/ui/NotificationProvider.tsx
-          4,711 100%    4.35kB/s    0:00:00            4,711 100%    4.35kB/s    0:00:01 (xfr#155, ir-chk=1061/137163)
-doc_assembler_web/apps/frontend/src/hooks/
-doc_assembler_web/apps/frontend/src/pages/
-doc_assembler_web/apps/frontend/src/pages/Dashboard.tsx
-          6,069 100%    5.60kB/s    0:00:00            6,069 100%    5.60kB/s    0:00:01 (xfr#156, ir-chk=1060/137163)
-doc_assembler_web/apps/frontend/src/pages/Documents.tsx
-         14,135 100%   13.00kB/s    0:00:00           14,135 100%   13.00kB/s    0:00:01 (xfr#157, ir-chk=1059/137163)
-doc_assembler_web/apps/frontend/src/pages/Settings.tsx
-            498 100%    0.46kB/s    0:00:00              498 100%    0.46kB/s    0:00:01 (xfr#158, ir-chk=1058/137163)
-doc_assembler_web/apps/frontend/src/services/
-doc_assembler_web/apps/frontend/src/services/api.ts
-          4,078 100%    3.73kB/s    0:00:00            4,078 100%    3.73kB/s    0:00:01 (xfr#159, ir-chk=1057/137163)
-doc_assembler_web/apps/frontend/src/stores/
-doc_assembler_web/apps/frontend/src/stores/authStore.ts
-          4,457 100%    4.06kB/s    0:00:00            4,457 100%    4.06kB/s    0:00:01 (xfr#160, ir-chk=1056/137163)
-doc_assembler_web/apps/frontend/src/stores/notificationStore.ts
-          1,905 100%    1.73kB/s    0:00:00            1,905 100%    1.73kB/s    0:00:01 (xfr#161, ir-chk=1055/137163)
-doc_assembler_web/apps/frontend/src/types/
-doc_assembler_web/apps/frontend/src/types/index.ts
-          7,166 100%    6.50kB/s    0:00:00            7,166 100%    6.50kB/s    0:00:01 (xfr#162, ir-chk=1054/137163)
-doc_assembler_web/apps/frontend/src/utils/
-doc_assembler_web/apps/frontend/src/utils/cn.ts
-            170 100%    0.15kB/s    0:00:00              170 100%    0.15kB/s    0:00:01 (xfr#163, ir-chk=1053/137163)
-doc_assembler_web/deployment/
-doc_assembler_web/deployment/docker/
-doc_assembler_web/deployment/nginx/
-doc_assembler_web/deployment/ssl/
-doc_assembler_web/infrastructure/
-doc_assembler_web/infrastructure/ALWAYS_FREE_TIER_GUIDE.md
-          7,868 100%    7.11kB/s    0:00:00            7,868 100%    7.11kB/s    0:00:01 (xfr#164, ir-chk=1049/137163)
-doc_assembler_web/infrastructure/DEPLOYMENT_GUIDE.md
-          6,186 100%    5.58kB/s    0:00:00            6,186 100%    5.58kB/s    0:00:01 (xfr#165, ir-chk=1048/137163)
-doc_assembler_web/infrastructure/cloudflare/
-doc_assembler_web/infrastructure/cloudflare/workers/
-doc_assembler_web/infrastructure/cloudflare/workers/api-proxy.js
-          9,738 100%    8.76kB/s    0:00:00            9,738 100%    8.76kB/s    0:00:01 (xfr#166, ir-chk=1041/137163)
-doc_assembler_web/infrastructure/scripts/
-doc_assembler_web/infrastructure/scripts/deploy.sh
-          3,213 100%    2.87kB/s    0:00:00            3,213 100%    2.87kB/s    0:00:01 (xfr#167, ir-chk=1040/137163)
-doc_assembler_web/infrastructure/terraform/
-doc_assembler_web/infrastructure/terraform/.terraform.lock.hcl
-          3,755 100%    3.35kB/s    0:00:00            3,755 100%    3.35kB/s    0:00:01 (xfr#168, ir-chk=1039/137163)
-doc_assembler_web/infrastructure/terraform/cloud-init-db.yaml
-          3,965 100%    3.54kB/s    0:00:00            3,965 100%    3.54kB/s    0:00:01 (xfr#169, ir-chk=1038/137163)
-doc_assembler_web/infrastructure/terraform/cloud-init.yaml
-         10,771 100%    9.61kB/s    0:00:00           10,771 100%    9.61kB/s    0:00:01 (xfr#170, ir-chk=1037/137163)
-doc_assembler_web/infrastructure/terraform/cloudflare.tf
-          7,552 100%    6.74kB/s    0:00:00            7,552 100%    6.74kB/s    0:00:01 (xfr#171, ir-chk=1036/137163)
-doc_assembler_web/infrastructure/terraform/main.tf
-          8,455 100%    7.55kB/s    0:00:00            8,455 100%    7.55kB/s    0:00:01 (xfr#172, ir-chk=1035/137163)
-doc_assembler_web/infrastructure/terraform/outputs.tf
-          3,756 100%    3.35kB/s    0:00:00            3,756 100%    3.35kB/s    0:00:01 (xfr#173, ir-chk=1034/137163)
-doc_assembler_web/infrastructure/terraform/terraform.tfvars
-          1,754 100%    1.57kB/s    0:00:00            1,754 100%    1.57kB/s    0:00:01 (xfr#174, ir-chk=1033/137163)
-doc_assembler_web/infrastructure/terraform/terraform.tfvars.example
-          1,488 100%    1.32kB/s    0:00:00            1,488 100%    1.32kB/s    0:00:01 (xfr#175, ir-chk=1032/137163)
-doc_assembler_web/infrastructure/terraform/tfplan
-         12,652 100%   11.21kB/s    0:00:00           12,652 100%   11.21kB/s    0:00:01 (xfr#176, ir-chk=1031/137163)
-doc_assembler_web/infrastructure/terraform/variables.tf
-          4,313 100%    3.82kB/s    0:00:00            4,313 100%    3.82kB/s    0:00:01 (xfr#177, ir-chk=1030/137163)
-doc_assembler_web/infrastructure/terraform/.terraform/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/cloudflare/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/cloudflare/cloudflare/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/cloudflare/cloudflare/4.52.0/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/cloudflare/cloudflare/4.52.0/linux_amd64/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/cloudflare/cloudflare/4.52.0/linux_amd64/CHANGELOG.md
-         32,768  10%   29.01kB/s    0:00:09           65,536  20%   58.02kB/s    0:00:04          314,892 100%  278.54kB/s    0:00:01 (xfr#178, ir-chk=1020/137163)
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/cloudflare/cloudflare/4.52.0/linux_amd64/LICENSE
-         16,725 100%   15.95MB/s    0:00:00           16,725 100%   15.95MB/s    0:00:00 (xfr#179, ir-chk=1019/137163)
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/cloudflare/cloudflare/4.52.0/linux_amd64/README.md
-          1,518 100%    1.45MB/s    0:00:00            1,518 100%    1.45MB/s    0:00:00 (xfr#180, ir-chk=1018/137163)
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/cloudflare/cloudflare/4.52.0/linux_amd64/terraform-provider-cloudflare_v4.52.0
-         32,768   0%   31.25MB/s    0:00:01       46,346,392 100%  329.85MB/s    0:00:00 (xfr#181, ir-chk=1017/137163)
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/hashicorp/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/hashicorp/tls/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/hashicorp/tls/4.1.0/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/hashicorp/tls/4.1.0/linux_amd64/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/hashicorp/tls/4.1.0/linux_amd64/LICENSE.txt
-         16,761 100%  121.25kB/s    0:00:00           16,761 100%  121.25kB/s    0:00:00 (xfr#182, ir-chk=1013/137163)
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/hashicorp/tls/4.1.0/linux_amd64/terraform-provider-tls_v4.1.0_x5
-         32,768   0%  237.04kB/s    0:01:13       17,555,640 100%   84.56MB/s    0:00:00 (xfr#183, ir-chk=1012/137163)
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/oracle/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/oracle/oci/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/oracle/oci/4.123.0/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/oracle/oci/4.123.0/linux_amd64/
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/oracle/oci/4.123.0/linux_amd64/CHANGELOG.md
-         32,768  26%  161.62kB/s    0:00:00          123,418 100%  608.71kB/s    0:00:00 (xfr#184, ir-chk=1008/137163)
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/oracle/oci/4.123.0/linux_amd64/LICENSE.md
-         16,725 100%   82.08kB/s    0:00:00           16,725 100%   82.08kB/s    0:00:00 (xfr#185, ir-chk=1007/137163)
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/oracle/oci/4.123.0/linux_amd64/README.md
-          2,817 100%   13.82kB/s    0:00:00            2,817 100%   13.82kB/s    0:00:00 (xfr#186, ir-chk=1006/137163)
-doc_assembler_web/infrastructure/terraform/.terraform/providers/registry.terraform.io/oracle/oci/4.123.0/linux_amd64/terraform-provider-oci_v4.123.0
-         32,768   0%  160.80kB/s    0:16:49      162,422,784 100%  280.61MB/s    0:00:00 (xfr#187, ir-chk=1005/137163)
-doc_assembler_web/packages/
-doc_assembler_web/packages/frontend/
-doc_assembler_web/packages/frontend/index.html
-            372 100%    0.25kB/s    0:00:00              372 100%    0.25kB/s    0:00:01 (xfr#188, ir-chk=1044/190142)
-doc_assembler_web/packages/frontend/package.json
-          2,095 100%    1.39kB/s    0:00:00            2,095 100%    1.39kB/s    0:00:01 (xfr#189, ir-chk=1043/190142)
-doc_assembler_web/packages/frontend/postcss.config.js
-             81 100%    0.05kB/s    0:00:00               81 100%    0.05kB/s    0:00:01 (xfr#190, ir-chk=1042/190142)
-doc_assembler_web/packages/frontend/tailwind.config.js
-          1,344 100%    0.89kB/s    0:00:00            1,344 100%    0.89kB/s    0:00:01 (xfr#191, ir-chk=1041/190142)
-doc_assembler_web/packages/frontend/tsconfig.json
-            727 100%    0.48kB/s    0:00:00              727 100%    0.48kB/s    0:00:01 (xfr#192, ir-chk=1040/190142)
-doc_assembler_web/packages/frontend/tsconfig.node.json
-            214 100%    0.14kB/s    0:00:00              214 100%    0.14kB/s    0:00:01 (xfr#193, ir-chk=1039/190142)
-doc_assembler_web/packages/frontend/vite.config.ts
-            694 100%    0.46kB/s    0:00:00              694 100%    0.46kB/s    0:00:01 (xfr#194, ir-chk=1038/190142)
-doc_assembler_web/packages/frontend/src/
-doc_assembler_web/packages/frontend/src/index.css
-          1,047 100%    0.69kB/s    0:00:00            1,047 100%    0.69kB/s    0:00:01 (xfr#195, ir-chk=1036/190142)
-doc_assembler_web/packages/frontend/src/components/
-doc_assembler_web/packages/frontend/src/components/auth/
-doc_assembler_web/packages/frontend/src/components/common/
-doc_assembler_web/packages/frontend/src/components/dashboard/
-doc_assembler_web/packages/frontend/src/components/documents/
-doc_assembler_web/packages/frontend/src/components/layout/
-doc_assembler_web/packages/frontend/src/components/ui/
-doc_assembler_web/packages/frontend/src/hooks/
-doc_assembler_web/packages/frontend/src/pages/
-doc_assembler_web/packages/frontend/src/services/
-doc_assembler_web/packages/frontend/src/services/api.ts
-          4,827 100%    3.17kB/s    0:00:00            4,827 100%    3.17kB/s    0:00:01 (xfr#196, ir-chk=1021/190142)
-doc_assembler_web/packages/frontend/src/services/auth.ts
-          3,533 100%    2.32kB/s    0:00:00            3,533 100%    2.32kB/s    0:00:01 (xfr#197, ir-chk=1020/190142)
-doc_assembler_web/packages/frontend/src/services/documents.ts
-          6,572 100%    4.32kB/s    0:00:00            6,572 100%    4.32kB/s    0:00:01 (xfr#198, ir-chk=1019/190142)
-doc_assembler_web/packages/frontend/src/services/socket.ts
-          6,663 100%    4.37kB/s    0:00:00            6,663 100%    4.37kB/s    0:00:01 (xfr#199, ir-chk=1018/190142)
-doc_assembler_web/packages/frontend/src/store/
-doc_assembler_web/packages/frontend/src/store/authStore.ts
-          6,326 100%    4.13kB/s    0:00:00            6,326 100%    4.13kB/s    0:00:01 (xfr#200, ir-chk=1017/190142)
-doc_assembler_web/packages/frontend/src/test/
-doc_assembler_web/packages/frontend/src/types/
-doc_assembler_web/packages/frontend/src/types/index.ts
-          4,291 100%    2.80kB/s    0:00:00            4,291 100%    2.80kB/s    0:00:01 (xfr#201, ir-chk=1016/190142)
-doc_assembler_web/packages/frontend/src/utils/
-
-sent 303,223,660 bytes  received 19,193 bytes  46,652,746.62 bytes/sec
-total size is 7,802,210,060  speedup is 25.73
-2025-06-23 18:46:49 - ERROR: Migration verification failed for /home/cbwinslow/Projects
